@@ -74,7 +74,7 @@ def runSHVC():
     for name in filelist:
         # get all chunk of a file
         chunks = getchunk(name)
-        chunks = ['HoneyBee_1920x1080_chunk_6.yuv', 'HoneyBee_1920x1080_chunk_7.yuv']
+        chunks = ['YachtRide_1920x1080_chunk_5.yuv', 'YachtRide_1920x1080_chunk_6.yuv','YachtRide_1920x1080_chunk_7.yuv', 'YachtRide_1920x1080_chunk_8.yuv', 'YachtRide_1920x1080_chunk_9.yuv']
         print(chunks)
         for chunk in chunks:
             # generate a config file per sequence before running SHVC

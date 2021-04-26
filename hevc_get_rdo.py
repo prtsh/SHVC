@@ -1,7 +1,7 @@
 import os, sys
 
 logpath = './log_hevc/'
-yuvseq = ['HoneyBee_1920x1080']
+yuvseq = ['HoneyBee_1920x1080','Beauty_1920x1080','Bosphorus_1920x1080', 'HoneyBee_1920x1080', 'Jockey_1920x1080', 'ReadySteadyGo_1920x1080','ShakeNDry_1920x1080', 'YachtRide_1920x1080' ]
 chunks = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 qplist = ['50', '46', '43', '39', '36', '33', '30', '27', '24']
 #get all data - bitrate + PSNR for each chunk of a file
@@ -17,6 +17,11 @@ def getChunkData(fname, bitrate, quality):
 
 def getFileData(yuvseq):
     for yuvfile in yuvseq: #HoneyBee_1920x1080
+        bitrate_all = []
+        quality_all = []
+        print("\n *************************************** \n")
+        print(yuvfile)
+        print("\n *************************************** \n")
         for chunk in chunks:
             suffix = '_chunk_' + chunk + '.yuv_' 
             prefix = yuvfile + suffix #HoneyBee_1920x1080_chunk_9.yuv_
@@ -31,8 +36,8 @@ def getFileData(yuvseq):
             print("bitrate(kbps) -", bitrate, "\n", "PSNR(dB) -", quality, "\n")
             bitrate_all.append(bitrate)
             quality_all.append(quality)
+        print(bitrate_all, "\n", quality_all)
 
 if __name__ == '__main__':
     getFileData(yuvseq)
     print("\n ------------------------------------------------------- \n")
-    print(bitrate_all, "\n", quality_all)
