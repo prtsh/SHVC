@@ -1,7 +1,7 @@
 import os, sys
 
 logpath = './log_hevc/'
-yuvseq = ['HoneyBee_1920x1080','Beauty_1920x1080','Bosphorus_1920x1080', 'HoneyBee_1920x1080', 'Jockey_1920x1080', 'ReadySteadyGo_1920x1080','ShakeNDry_1920x1080', 'YachtRide_1920x1080' ]
+yuvseq = ['HoneyBee_1920x1080','Beauty_1920x1080','Bosphorus_1920x1080', 'HoneyBee_1920x1080', 'Jockey_1920x1080', 'ReadySteadyGo_1920x1080','YachtRide_1920x1080', 'ShakeNDry_1920x1080', ]
 chunks = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 qplist = ['50', '46', '43', '39', '36', '33', '30', '27', '24']
 #get all data - bitrate + PSNR for each chunk of a file

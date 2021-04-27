@@ -1,10 +1,10 @@
 import os, glob
 
 #paths
-binpath = './bin/'
+binpath = './bin_shvc/'
 configpath = './cfg/'
 encoderpath = './shvc/bin/'
-logpath = './log/'
+logpath = './log_shvc/'
 yuvpath = './yuv_sequence_chunks/'
 width  = '1920'
 height = '1080'
@@ -73,8 +73,8 @@ def generateCommand(chunk):
 def runSHVC():
     for name in filelist:
         # get all chunk of a file
-        #chunks = getchunk(name)
-        chunks = ['HoneyBee_1920x1080_chunk_8.yuv', 'HoneyBee_1920x1080_chunk_9.yuv']
+        #chunks = getchunk(name) YachtRide_1920x1080_chunk_9.yuv_30_hevc.txt
+        chunks = ['YachtRide_1920x1080_chunk_8.yuv']
         print(chunks)
         for chunk in chunks:
             # generate a config file per sequence before running SHVC
