@@ -1,0 +1,534 @@
+
+SHM software: Encoder Version [12.4 (HM-16.10)][Linux][GCC 5.4.0][64 bit] 
+
+Default OLS defined. Ignoring ListOfOutputLayers1
+Default OLS defined. Ignoring ListOfOutputLayers2
+Default OLS defined. Ignoring ListOfOutputLayers3
+Default OLS defined. Ignoring ListOfOutputLayers4
+
+Total number of layers            : 5
+Multiview                         : 0
+Scalable                          : 1
+Base layer                        : HEVC
+Auxiliary pictures                : 0
+Adaptive Resolution Change        : 0
+Skip picture at ARC switch        : 0
+Align picture type                : 1
+Cross layer IRAP alignment        : 1
+IDR only for IRAP                 : 1
+InterLayerWeightedPred            : 0
+
+=== Layer 0 settings ===
+Input          File                    : ./yuv_sequence_chunks/YachtRide_1920x1080_chunk_4.yuv
+Reconstruction File                    : 
+Real     Format                        : 1920x1080 30Hz
+Internal Format                        : 1920x1080 30Hz
+PTL index                              : 1
+Profile                                : main
+CU size / depth / total-depth          : 64 / 4 / 4
+RQT trans. size (min / max)            : 4 / 32
+Max RQT depth inter                    : 3
+Max RQT depth intra                    : 3
+Intra period                           : 48
+QP                                     : 50.00
+Max dQP signaling depth                : 0
+Input bit depth                        : (Y:8, C:8)
+MSB-extended bit depth                 : (Y:8, C:8)
+Internal bit depth                     : (Y:8, C:8)
+PCM sample bit depth                   : (Y:8, C:8)
+Input ChromaFormatIDC                  : 4:2:0
+Output (internal) ChromaFormatIDC      : 4:2:0
+
+RateControl                            : 0
+
+=== Layer 1 settings ===
+Input          File                    : ./yuv_sequence_chunks/YachtRide_1920x1080_chunk_4.yuv
+Reconstruction File                    : 
+Real     Format                        : 1920x1080 30Hz
+Internal Format                        : 1920x1080 30Hz
+PTL index                              : 2
+Profile                                : scalable-main
+CU size / depth / total-depth          : 64 / 4 / 4
+RQT trans. size (min / max)            : 4 / 32
+Max RQT depth inter                    : 3
+Max RQT depth intra                    : 3
+Intra period                           : 48
+QP                                     : 45.00
+Max dQP signaling depth                : 0
+Input bit depth                        : (Y:8, C:8)
+MSB-extended bit depth                 : (Y:8, C:8)
+Internal bit depth                     : (Y:8, C:8)
+PCM sample bit depth                   : (Y:8, C:8)
+Input ChromaFormatIDC                  : 4:2:0
+Output (internal) ChromaFormatIDC      : 4:2:0
+
+RateControl                            : 0
+
+=== Layer 2 settings ===
+Input          File                    : ./yuv_sequence_chunks/YachtRide_1920x1080_chunk_4.yuv
+Reconstruction File                    : 
+Real     Format                        : 1920x1080 30Hz
+Internal Format                        : 1920x1080 30Hz
+PTL index                              : 3
+Profile                                : none
+CU size / depth / total-depth          : 64 / 4 / 4
+RQT trans. size (min / max)            : 4 / 32
+Max RQT depth inter                    : 3
+Max RQT depth intra                    : 3
+Intra period                           : 48
+QP                                     : 40.00
+Max dQP signaling depth                : 0
+Input bit depth                        : (Y:8, C:8)
+MSB-extended bit depth                 : (Y:8, C:8)
+Internal bit depth                     : (Y:8, C:8)
+PCM sample bit depth                   : (Y:8, C:8)
+Input ChromaFormatIDC                  : 4:2:0
+Output (internal) ChromaFormatIDC      : 4:2:0
+
+RateControl                            : 0
+
+=== Layer 3 settings ===
+Input          File                    : ./yuv_sequence_chunks/YachtRide_1920x1080_chunk_4.yuv
+Reconstruction File                    : 
+Real     Format                        : 1920x1080 30Hz
+Internal Format                        : 1920x1080 30Hz
+PTL index                              : 4
+Profile                                : none
+CU size / depth / total-depth          : 64 / 4 / 4
+RQT trans. size (min / max)            : 4 / 32
+Max RQT depth inter                    : 3
+Max RQT depth intra                    : 3
+Intra period                           : 48
+QP                                     : 35.00
+Max dQP signaling depth                : 0
+Input bit depth                        : (Y:8, C:8)
+MSB-extended bit depth                 : (Y:8, C:8)
+Internal bit depth                     : (Y:8, C:8)
+PCM sample bit depth                   : (Y:8, C:8)
+Input ChromaFormatIDC                  : 4:2:0
+Output (internal) ChromaFormatIDC      : 4:2:0
+
+RateControl                            : 0
+
+=== Layer 4 settings ===
+Input          File                    : ./yuv_sequence_chunks/YachtRide_1920x1080_chunk_4.yuv
+Reconstruction File                    : 
+Real     Format                        : 1920x1080 30Hz
+Internal Format                        : 1920x1080 30Hz
+PTL index                              : 5
+Profile                                : none
+CU size / depth / total-depth          : 64 / 4 / 4
+RQT trans. size (min / max)            : 4 / 32
+Max RQT depth inter                    : 3
+Max RQT depth intra                    : 3
+Intra period                           : 48
+QP                                     : 30.00
+Max dQP signaling depth                : 0
+Input bit depth                        : (Y:8, C:8)
+MSB-extended bit depth                 : (Y:8, C:8)
+Internal bit depth                     : (Y:8, C:8)
+PCM sample bit depth                   : (Y:8, C:8)
+Input ChromaFormatIDC                  : 4:2:0
+Output (internal) ChromaFormatIDC      : 4:2:0
+
+RateControl                            : 0
+
+=== Common configuration settings === 
+Bitstream      File                    : ./bin_shvc/YachtRide_1920x1080_chunk_4.yuv.bin
+Sequence PSNR output                   : Linear average only
+Sequence MSE output                    : Disabled
+Frame MSE output                       : Disabled
+Cabac-zero-word-padding                : Enabled
+Frame/Field                            : Frame based coding
+Frame index                            : 0 - 59 (60 frames)
+Min PCM size                           : 8
+Motion search range                    : 64
+Decoding refresh type                  : 1
+Cb QP Offset                           : 0
+Cr QP Offset                           : 0
+QP adaptation                          : 0 (range=0)
+GOP size                               : 16
+Intra reference smoothing              : Enabled
+diff_cu_chroma_qp_offset_depth         : -1
+extended_precision_processing_flag     : Disabled
+implicit_rdpcm_enabled_flag            : Disabled
+explicit_rdpcm_enabled_flag            : Disabled
+transform_skip_rotation_enabled_flag   : Disabled
+transform_skip_context_enabled_flag    : Disabled
+cross_component_prediction_enabled_flag: Disabled
+high_precision_offsets_enabled_flag    : Disabled
+persistent_rice_adaptation_enabled_flag: Disabled
+cabac_bypass_alignment_enabled_flag    : Disabled
+log2_sao_offset_scale_luma             : 0
+log2_sao_offset_scale_chroma           : 0
+Cost function:                         : Lossy coding (default)
+WPMethod                               : 0
+Max Num Merge Candidates               : 5
+
+Layer0 TOOL CFG: IBD:0 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 RQT:1 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 SliceSegment: M=0 CIP:0 SAO:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1 AQpS:0 SignBitHidingFlag:1 RecalQP:0
+
+Layer1 TOOL CFG: IBD:0 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 RQT:1 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 SliceSegment: M=0 CIP:0 SAO:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1 AQpS:0 SignBitHidingFlag:1 RecalQP:0
+
+Layer2 TOOL CFG: IBD:0 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 RQT:1 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 SliceSegment: M=0 CIP:0 SAO:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1 AQpS:0 SignBitHidingFlag:1 RecalQP:0
+
+Layer3 TOOL CFG: IBD:0 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 RQT:1 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 SliceSegment: M=0 CIP:0 SAO:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1 AQpS:0 SignBitHidingFlag:1 RecalQP:0
+
+Layer4 TOOL CFG: IBD:0 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 RQT:1 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 SliceSegment: M=0 CIP:0 SAO:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1 AQpS:0 SignBitHidingFlag:1 RecalQP:0
+
+SHVC TOOL CFG: ElRapSliceType: P-slice REF_IDX_ME_ZEROMV: 1 ENCODER_FAST_MODE: 1 FIS:0 CGS: 0 CGSMaxOctantDepth: 1 CGSMaxYPartNumLog2: 2 CGSLUTBit:12 CGSAdaptC:1 
+
+Non-environment-variable-controlled macros set as follows: 
+
+                                RExt__DECODER_DEBUG_BIT_STATISTICS =   0
+                                      RExt__HIGH_BIT_DEPTH_SUPPORT =   0
+                            RExt__HIGH_PRECISION_FORWARD_TRANSFORM =   0
+                                        O0043_BEST_EFFORT_DECODING =   0
+                                         ME_ENABLE_ROUNDING_OF_MVS =   1
+        U0040_MODIFIED_WEIGHTEDPREDICTION_WITH_BIPRED_AND_CLIPPING =   1
+
+POC    0 LId: 0 TId: 0 ( I-SLICE IDR_W_RADL, nQP 50 QP 50 )      41392 bits [Y 29.3798 dB    U 38.5662 dB    V 37.2385 dB] [ET    11 ] [L0 ] [L1 ] [MD5:7eca9999b677ea75753b80eeaf237e8b,e6edb58d88473a1ca8ef6a2ed13e054d,36dda2d167d55e5c258f6a1d36b65e84]
+POC    0 LId: 1 TId: 0 ( P-SLICE IDR_W_RADL, nQP 45 QP 45 )      60344 bits [Y 31.8860 dB    U 39.9496 dB    V 38.9578 dB] [ET    14 ] [L0 0(0, {1.00, 1.00}x) ] [L1 ] [MD5:2d600f96e351a18ef8f7b4ceebcf9307,a0a72cb2f11e12e5e3ecf60d06b854d3,b15bdcb956571a61f3236236d276a01d]
+POC    0 LId: 2 TId: 0 ( I-SLICE IDR_W_RADL, nQP 40 QP 40 )     169992 bits [Y 35.0073 dB    U 41.3066 dB    V 40.3518 dB] [ET    12 ] [L0 ] [L1 ] [MD5:55daf9d2baee676c3c70310692ee44e5,dad0ecce8c33ad9c9a907263bc0c87a9,5ccf67ab77918da2fc30bf1ac4a71f3e]
+POC    0 LId: 3 TId: 0 ( P-SLICE IDR_W_RADL, nQP 35 QP 35 )     295296 bits [Y 38.0348 dB    U 42.4251 dB    V 41.6526 dB] [ET    15 ] [L0 0(0, {1.00, 1.00}x) ] [L1 ] [MD5:05586f6ede73ce597b3dd08d00686138,116906da42d3ab815a45061c38bd215d,67b37c2016995757218b86eb2a49f493]
+POC    0 LId: 4 TId: 0 ( P-SLICE IDR_W_RADL, nQP 30 QP 30 )     256064 bits [Y 40.8470 dB    U 43.8226 dB    V 43.0714 dB] [ET    16 ] [L0 0(3, {1.00, 1.00}x) ] [L1 ] [MD5:7650752260234424accb13fcf66cd3e2,0a9fac6b59bf8d6ced008bb67a2ebd63,82eb07e41800d5d667ae08074701d18a]
+POC   16 LId: 0 TId: 0 ( B-SLICE    TRAIL_R, nQP 51 QP 51 )      16632 bits [Y 28.1587 dB    U 38.3848 dB    V 36.6744 dB] [ET    28 ] [L0 0 ] [L1 0c ] [MD5:cdbcd9f77dd6c5b5c63eeb16c836d052,e0866cdaf20e23b3289a1e6bda80bf13,9c5d706538c15d8bafd35cad3a099dd3]
+POC   16 LId: 1 TId: 0 ( B-SLICE     STSA_R, nQP 46 QP 46 )      27680 bits [Y 30.3351 dB    U 39.5035 dB    V 38.2738 dB] [ET    31 ] [L0 0 16(0, {1.00, 1.00}x) ] [L1 0 16(0, {1.00, 1.00}x)c ] [MD5:1e6deb5c959b13362209b6d907f09d29,c064990638d089a6f319b0a4b6780b34,97162bd5e3cee21797f602744c4e77cd]
+POC   16 LId: 2 TId: 0 ( B-SLICE     STSA_R, nQP 41 QP 41 )      89288 bits [Y 33.2277 dB    U 41.0671 dB    V 39.8224 dB] [ET    38 ] [L0 0 ] [L1 0 16(0, {1.00, 1.00}x)c ] [MD5:8aa526712273ce2a86e45f5164bdecbe,1ad2bef0ab28da656c18b8be8dbffefc,5479fba2f1af02cd1d509f25fe1cbe97]
+POC   16 LId: 3 TId: 0 ( B-SLICE     STSA_R, nQP 36 QP 36 )     180104 bits [Y 36.2818 dB    U 41.6150 dB    V 40.6213 dB] [ET    47 ] [L0 0 16(0, {1.00, 1.00}x) ] [L1 0c 16(0, {1.00, 1.00}x) ] [MD5:9cf5bcc08af2d8c92ced88e387613bed,928a2041b156748cda20046b99c3ba01,af5a49163a4e5093854be747d191aba2]
+POC   16 LId: 4 TId: 0 ( B-SLICE     STSA_R, nQP 31 QP 31 )     172088 bits [Y 39.1174 dB    U 42.8876 dB    V 41.9743 dB] [ET    46 ] [L0 0 16(3, {1.00, 1.00}x) ] [L1 0 16(3, {1.00, 1.00}x)c ] [MD5:e746dc3fcac13f9cedc3c21ea11f3bf0,92929cd589d4f54e5831778ea7b785bf,e6559040c59400525801720a32859afe]
+POC    8 LId: 0 TId: 1 ( B-SLICE      TSA_R, nQP 51 QP 51 )       8720 bits [Y 27.6790 dB    U 38.3639 dB    V 36.7163 dB] [ET    33 ] [L0 0 16 ] [L1 16c 0 ] [MD5:91031547d644685ef595e18632875cd0,bf16550c1ffa9debd0b6bb7462f973f3,746be5d406761a0647d6d68a111e45c2]
+POC    8 LId: 1 TId: 1 ( B-SLICE      TSA_R, nQP 47 QP 47 )      23840 bits [Y 29.9339 dB    U 39.6392 dB    V 38.3093 dB] [ET    37 ] [L0 0 16 ] [L1 16c 0 ] [MD5:73686b3730b0c5a5607e16dcbf0bfc67,b2dff2a80b0d15c56070e9fc0ed0cc72,84c8220a4d78e0498f6d369762f7c429]
+POC    8 LId: 2 TId: 1 ( B-SLICE      TSA_R, nQP 42 QP 42 )      58312 bits [Y 32.6242 dB    U 40.8922 dB    V 39.6200 dB] [ET    44 ] [L0 0 16 ] [L1 16c 0 ] [MD5:c7b7aea57084418bb67ddaf1521dc347,f20ff6d63d3e333d4884415d9e13663c,e857a10421d349ba3d5e03f8555fb3be]
+POC    8 LId: 3 TId: 1 ( B-SLICE      TSA_R, nQP 37 QP 37 )     126208 bits [Y 35.5932 dB    U 41.7910 dB    V 40.7537 dB] [ET    49 ] [L0 0 16 ] [L1 16c 0 ] [MD5:c0714fcf6abfa16bd30b85ff567f802d,ef5f7a255dc56b46095dcc54680ab7a0,35368f41cf6e35d807ea82d699ba9071]
+POC    8 LId: 4 TId: 1 ( B-SLICE      TSA_R, nQP 32 QP 32 )     145896 bits [Y 38.7283 dB    U 42.7447 dB    V 41.7871 dB] [ET    56 ] [L0 0 16 8(3, {1.00, 1.00}x) ] [L1 16 0 8(3, {1.00, 1.00}x)c ] [MD5:d2ee3612c4bae5df146e3c2b2f88eb73,f178ed11029669961f17584636bd7b2a,059bad2052f90496b3f83f9ed4892532]
+POC    4 LId: 0 TId: 2 ( B-SLICE      TSA_N, nQP 51 QP 51 )       1912 bits [Y 27.1499 dB    U 38.5755 dB    V 36.8911 dB] [ET    35 ] [L0 0 8 ] [L1 8c 16 ] [MD5:763e6bb88f089f1795ff2edc3efb25e4,ebba44255f97cea526a286bce52c81ef,c6456818d89b1d4dd596aee534ecb6a5]
+POC    4 LId: 1 TId: 2 ( B-SLICE      TSA_N, nQP 48 QP 48 )       7520 bits [Y 29.0520 dB    U 39.8597 dB    V 38.4602 dB] [ET    37 ] [L0 0 8 ] [L1 8c 16 ] [MD5:19af631bee08b1256faa12afc0d09f41,a21dc6761a6d3fd7f38d48f5a21a14f0,d53c4d6c2461466ae73482758057e17b]
+POC    4 LId: 2 TId: 2 ( B-SLICE      TSA_N, nQP 43 QP 43 )      25248 bits [Y 31.5383 dB    U 41.0531 dB    V 39.7437 dB] [ET    43 ] [L0 0 8 ] [L1 8c 16 ] [MD5:8ea04bc738890b33b21a2cb820e6b555,fdcbfed28cb9f00f89dbb44d65f33892,fbd335660cbf13fa9a816fda78a1563f]
+POC    4 LId: 3 TId: 2 ( B-SLICE      TSA_N, nQP 38 QP 38 )      63672 bits [Y 34.2792 dB    U 41.8628 dB    V 40.7161 dB] [ET    47 ] [L0 0 8 ] [L1 8c 16 ] [MD5:931bab57028aa7efa3d2629ea6f52682,94c11adb422db542f61aba9f1b571280,399376ea43f2f069d05efbb17c854c1f]
+POC    4 LId: 4 TId: 2 ( B-SLICE      TSA_N, nQP 33 QP 33 )      93192 bits [Y 37.3262 dB    U 42.5281 dB    V 41.4949 dB] [ET    54 ] [L0 0 8 4(3, {1.00, 1.00}x) ] [L1 8 16 4(3, {1.00, 1.00}x)c ] [MD5:8fbf5a2ac569d519c1192293692cd56c,e340164e9226e318cefe363334fa0a7b,0601ef4d1c3c754b2f77de0ea69695e8]
+POC    2 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        680 bits [Y 27.7316 dB    U 38.6544 dB    V 37.1041 dB] [ET    34 ] [L0 0 4 ] [L1 4c 8 ] [MD5:d6853fb193b5b22f46454fdb0a696d51,fff07661b913f0f1868eeeecda402042,7820d47f2c5677f824d873001a265ebe]
+POC    2 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       2128 bits [Y 29.5535 dB    U 39.9679 dB    V 38.6943 dB] [ET    35 ] [L0 0 4 ] [L1 4c 8 ] [MD5:0d1c25a5ca4515431e3fe2df53b88acb,2fa9f6c0e010654892eee728f2e5b26a,ac59f8abe45ca4a37468c2f12ff2597f]
+POC    2 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       7864 bits [Y 31.7492 dB    U 41.2998 dB    V 40.0172 dB] [ET    37 ] [L0 0 4 ] [L1 4c 8 ] [MD5:d4efd3cabbbd706e7eac62de6f01597b,a3365de2aae30350c9d1eb7589effe35,122030861e4ba11d8efbfbeff2dc3fa4]
+POC    2 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      26440 bits [Y 34.2079 dB    U 42.2293 dB    V 41.1453 dB] [ET    41 ] [L0 0 4 ] [L1 4c 8 ] [MD5:95fe1f4584ecdd68fbabaeb557d87cf0,dd0d990eb6469b522b0c373aaf773241,59f46487c0d7af0ef6fc68e5e87f7b13]
+POC    2 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      58560 bits [Y 37.0176 dB    U 43.0259 dB    V 41.9555 dB] [ET    49 ] [L0 0 4 2(3, {1.00, 1.00}x) ] [L1 4 8 2(3, {1.00, 1.00}x)c ] [MD5:74b7cdbca92146173deb6cc4bb54eaf5,7eb5fae0faa38ac1712cd39b415afedc,18204b854680800222904f73183cb32c]
+POC    1 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        344 bits [Y 28.2706 dB    U 38.6243 dB    V 37.1559 dB] [ET    33 ] [L0 0 2 ] [L1 2c 4 ] [MD5:960860d3fad84f41d6f896cee353a826,abacf13e0d4330e4f2a7cde2151e5ba2,5f41113cff4023d8cd8dd9505d236aa0]
+POC    1 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1088 bits [Y 30.3618 dB    U 39.9936 dB    V 38.8226 dB] [ET    34 ] [L0 0 2 ] [L1 2c 4 ] [MD5:f554865ddb049469fefba434cfd0ea86,49b4dd94cbc69fa5ee9512ff82664794,0f5b4d7f4493e1a07457b9ff69c5f535]
+POC    1 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2936 bits [Y 32.5984 dB    U 41.3357 dB    V 40.2053 dB] [ET    34 ] [L0 0 2 ] [L1 2c 4 ] [MD5:473c27768effeb466239a91a56adaa7e,8e4cf61a69ad27e49e347fdbaae9b8f8,c40fcf300aa9d0ab950f27f6ef5564e1]
+POC    1 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       7664 bits [Y 34.7121 dB    U 42.3308 dB    V 41.3691 dB] [ET    35 ] [L0 0 2 ] [L1 2c 4 ] [MD5:8e42b37789ab04f9a441ed0eb9db233c,8b6186b1ae222c0b8a65ef36a1e38f79,330392d5d4f66acdefc52f1cc395649f]
+POC    1 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      22696 bits [Y 36.9902 dB    U 43.4213 dB    V 42.4485 dB] [ET    41 ] [L0 0 2 1(3, {1.00, 1.00}x) ] [L1 2 4 1(3, {1.00, 1.00}x)c ] [MD5:4d2ad678dfc9d9dfbe67ea23e5e9c2a6,8ad9c1bb099653be978c9becedb3300d,dbdad4c7b38e53afd2428cf10b6777b9]
+POC    3 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        336 bits [Y 27.3198 dB    U 38.6477 dB    V 37.0004 dB] [ET    37 ] [L0 2c 0 ] [L1 4 8 ] [MD5:a3aacae4dc3ffff058a61d1020f4ddf2,7e4474757a348a0a4a10e49862c029aa,533b30446bbf2cd5f61ab6598902732e]
+POC    3 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1096 bits [Y 29.1678 dB    U 39.9529 dB    V 38.6163 dB] [ET    38 ] [L0 2c 0 ] [L1 4 8 ] [MD5:ae5d2b4bdbef350121c184329e7905c3,812476bb986b8d3138b724144b12f7c3,f0fceae35fdbad5416461b71ae7d89f7]
+POC    3 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2768 bits [Y 31.3904 dB    U 41.2167 dB    V 39.9088 dB] [ET    38 ] [L0 2c 0 ] [L1 4 8 ] [MD5:69540c85024f617ac1feab734ca87bca,456539b8cd568a6daadbc5e6f440ca3b,3aa7a3cc9f59f2fa1871e942f90a5707]
+POC    3 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       7832 bits [Y 33.7197 dB    U 42.0922 dB    V 40.9609 dB] [ET    40 ] [L0 2c 0 ] [L1 4 8 ] [MD5:65e9626b628fec2b4f4cdeecfbe0e20e,2606a433d858dbed667058f7816f131a,2891a016f159cc4a3f6fff375172f268]
+POC    3 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      23808 bits [Y 36.3225 dB    U 42.8449 dB    V 41.7643 dB] [ET    47 ] [L0 2 0 3(3, {1.00, 1.00}x)c ] [L1 4 8 3(3, {1.00, 1.00}x) ] [MD5:3ef7aa895faeee3af90f2d6853c88445,b7f6672b17ac0585657a73f1c4eed0f0,86d7b523c727279bac85df9146e97557]
+POC    6 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        600 bits [Y 27.1725 dB    U 38.5459 dB    V 36.8441 dB] [ET    38 ] [L0 4c 0 ] [L1 8 16 ] [MD5:67846fc6f628c1e74e81dd2773c832c5,6bf3aff47e450d675ba314879cf45587,d68d1ccae4d5fd39908c838598bc1764]
+POC    6 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       2048 bits [Y 29.0245 dB    U 39.8461 dB    V 38.4211 dB] [ET    39 ] [L0 4c 0 ] [L1 8 16 ] [MD5:2ab2a6d1ba62c952d164c02696b3a533,f594ae30d3646424a06c7c51f0f447b4,9748ab41634d7e79094fd8ab55585b3a]
+POC    6 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       8016 bits [Y 31.2782 dB    U 41.0516 dB    V 39.6909 dB] [ET    42 ] [L0 4c 0 ] [L1 8 16 ] [MD5:72f3c7bf3e1c36b601076a3c2b47693d,c3b86fadd69037f26b53a500379de865,8697edeb0d50b2b6ef06bf1fb8bca1c1]
+POC    6 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      27832 bits [Y 33.8496 dB    U 41.9009 dB    V 40.7554 dB] [ET    46 ] [L0 4c 0 ] [L1 8 16 ] [MD5:840f2f722f7635d18d24ee794335a73a,f5939a34875ffb0f2dafef5ddee46237,f4590f5c144f5927c2d51c060dffa3cd]
+POC    6 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      63016 bits [Y 36.8056 dB    U 42.6090 dB    V 41.5119 dB] [ET    54 ] [L0 4 0 6(3, {1.00, 1.00}x)c ] [L1 8 16 6(3, {1.00, 1.00}x) ] [MD5:9811454e570aea05fb1945a03885ed91,8cdd9e02ae9f0a5d1ffaeb55409b11a5,a5a2b111560d23db908b06289f833ec8]
+POC    5 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        320 bits [Y 27.0928 dB    U 38.5687 dB    V 36.8482 dB] [ET    37 ] [L0 4 0 ] [L1 6c 8 ] [MD5:3b5178b6519bb6f57533815dd3ff6c54,8e2096bec178958f280f51266dd27763,928ed12b7890eb72a5394ebd5379b049]
+POC    5 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1080 bits [Y 28.9483 dB    U 39.8752 dB    V 38.4571 dB] [ET    37 ] [L0 4 0 ] [L1 6c 8 ] [MD5:db55754e62588a6bab7bcc8ce140fd9f,160c464919f2045b99ff709cbe087d51,b9f83f6836cb5e4b8fad6ced5b416cd1]
+POC    5 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2648 bits [Y 31.1974 dB    U 41.1060 dB    V 39.7544 dB] [ET    38 ] [L0 4 0 ] [L1 6c 8 ] [MD5:6c89e083be8dd88eff7fe1c12638f8e7,8b42e385a1e95c13d325f41147498874,d2ea2cd2858ff5a71fd73a45cf090f8b]
+POC    5 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8432 bits [Y 33.5875 dB    U 41.9254 dB    V 40.7657 dB] [ET    41 ] [L0 4 0 ] [L1 6c 8 ] [MD5:a46ac5e035710fa28b74759fc275c9a5,9efe3b13af0aea4b8cbe32a3be79995d,62f8eac07077e9b347c857deda72889f]
+POC    5 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      23632 bits [Y 36.2055 dB    U 42.6224 dB    V 41.5270 dB] [ET    47 ] [L0 4 0 5(3, {1.00, 1.00}x) ] [L1 6 8 5(3, {1.00, 1.00}x)c ] [MD5:40c6107027ce2aa490eca92a3b57410a,576e6ec792e4a10574e2bb59a21d2c18,ee1141bf027fa6e7f5dcd19bb5e8a0c4]
+POC    7 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        312 bits [Y 27.3979 dB    U 38.4838 dB    V 36.8512 dB] [ET    38 ] [L0 6c 4 ] [L1 8 16 ] [MD5:dd799bbd4805e3519e89d246af0a4d37,3edeeefeaad3fd2693f64b63a595e2c8,92e48b2070bcd03371eec7c1103a7295]
+POC    7 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        960 bits [Y 29.4132 dB    U 39.7811 dB    V 38.4411 dB] [ET    38 ] [L0 6c 4 ] [L1 8 16 ] [MD5:fcd5d6fe96982f4abfda81645e516431,4422640f471ef131f587c7f858d64d76,7234d27c9f8487e60634985a8dcb74a4]
+POC    7 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2672 bits [Y 31.6223 dB    U 40.9979 dB    V 39.6759 dB] [ET    38 ] [L0 6c 4 ] [L1 8 16 ] [MD5:71d053b2e5d3e546cd3e03247e623cac,e52d3bc6410f851026205d4b92662af1,a42f0e4c926e73b122b565ae4aced792]
+POC    7 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8384 bits [Y 34.0000 dB    U 41.8684 dB    V 40.7751 dB] [ET    41 ] [L0 6c 4 ] [L1 8 16 ] [MD5:95ecae674177105a6ab5c45b5377f57e,1453577d721ecda2b5ce85fc45d2f250,886998799d55fe83c1ae81a8daaae025]
+POC    7 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      23256 bits [Y 36.5005 dB    U 42.6913 dB    V 41.6483 dB] [ET    47 ] [L0 6 4 7(3, {1.00, 1.00}x)c ] [L1 8 16 7(3, {1.00, 1.00}x) ] [MD5:4bb0a6c4988d594108cdb9e905bbfc2b,d5907ba9fc74afce8b9a3c74ebab4c47,188ececad1b03fd23dd6aafd4e0c69ee]
+POC   12 LId: 0 TId: 2 ( B-SLICE      TSA_N, nQP 51 QP 51 )       1800 bits [Y 27.0374 dB    U 38.4680 dB    V 36.6896 dB] [ET    34 ] [L0 8c 0 ] [L1 16 8 ] [MD5:33b99f60bc556f16c7bbb8d5fdbeca5f,088bc64b3ce01eb1aa5e73c15dc2b525,9ccb406f8cd871b49b4e2ceb2fb2661e]
+POC   12 LId: 1 TId: 2 ( B-SLICE      TSA_N, nQP 48 QP 48 )       7320 bits [Y 28.9430 dB    U 39.7404 dB    V 38.2223 dB] [ET    37 ] [L0 8c 0 ] [L1 16 8 ] [MD5:ad60636b4ab69e58a958dc2c75848737,8a46a321265a3dda91fdd8e7e02c685d,493366a8104d86c1ee033344ed3d5f94]
+POC   12 LId: 2 TId: 2 ( B-SLICE      TSA_N, nQP 43 QP 43 )      22752 bits [Y 31.2634 dB    U 40.9772 dB    V 39.5168 dB] [ET    42 ] [L0 8c 0 ] [L1 16 8 ] [MD5:d13c57eb8f6d76e4a0c223443530ac97,0280ffd98e960c8bb83ed65f2fe600c3,294a5ecc40d2139df4b11e93dadc147d]
+POC   12 LId: 3 TId: 2 ( B-SLICE      TSA_N, nQP 38 QP 38 )      64344 bits [Y 34.1024 dB    U 41.6612 dB    V 40.4313 dB] [ET    47 ] [L0 8c 0 ] [L1 16 8 ] [MD5:b5566de80fedb76018e67f190e475bbc,edf1a4f7e20b3ce441584935e46516f1,9f8e183650353f027a59d45fe405b4f6]
+POC   12 LId: 4 TId: 2 ( B-SLICE      TSA_N, nQP 33 QP 33 )      95104 bits [Y 37.0852 dB    U 42.3347 dB    V 41.1819 dB] [ET    53 ] [L0 8 0 12(3, {1.00, 1.00}x)c ] [L1 16 8 12(3, {1.00, 1.00}x) ] [MD5:f1add6aafba3aef93074c43669ef7fd0,58dc2f6c2567ad31aa9543a6484c3878,b2d04b7810f5b15694a5cc822b53071c]
+POC   10 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        680 bits [Y 27.1212 dB    U 38.4420 dB    V 36.7246 dB] [ET    38 ] [L0 8 0 ] [L1 12c 16 ] [MD5:9c8c4cf771f78e9ebdc94ef962a802ad,b7b9afb7ab854c7375291c57a2e670c8,dc80b320c53aaf76af3c19adde854355]
+POC   10 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       1912 bits [Y 28.9734 dB    U 39.7254 dB    V 38.2495 dB] [ET    39 ] [L0 8 0 ] [L1 12c 16 ] [MD5:4dee01346eeb860315ac4cf7d3b1be6b,37e96d874437d09e2e89c1e77698366c,b4f39b0314522dfe5e8158f004b3f961]
+POC   10 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       7392 bits [Y 31.1202 dB    U 40.9635 dB    V 39.5755 dB] [ET    42 ] [L0 8 0 ] [L1 12c 16 ] [MD5:4d4383c3886f18fe4d1d391a45ad3ad7,0fb5031ab35e9314dcfa56982a9315a4,49d1488db35ab32b519c0d362a4917c5]
+POC   10 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      26672 bits [Y 33.7189 dB    U 41.7127 dB    V 40.5578 dB] [ET    46 ] [L0 8 0 ] [L1 12c 16 ] [MD5:73dbfc094894aa0877c6344a388fa5a1,64da5d86219812c639c5e0428dd7cf2b,d41bddc17103ef519fdfe026e3cbbe80]
+POC   10 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      63536 bits [Y 36.6357 dB    U 42.4000 dB    V 41.2952 dB] [ET    54 ] [L0 8 0 10(3, {1.00, 1.00}x) ] [L1 12 16 10(3, {1.00, 1.00}x)c ] [MD5:1a5624dc8c00cb1669a32e514b811579,2fcda5340d38cff1884e31fc95d8e32b,42141746bb8d9facb249b5081eb53976]
+POC    9 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        328 bits [Y 27.3016 dB    U 38.4370 dB    V 36.7387 dB] [ET    37 ] [L0 8 0 ] [L1 10c 12 ] [MD5:54ad34e9834b281b4a617a68e046e74b,69711e793dbf315a556848019fb4e495,89cad552773f1c3c93898e1a22f87366]
+POC    9 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1024 bits [Y 29.3931 dB    U 39.7223 dB    V 38.3299 dB] [ET    37 ] [L0 8 0 ] [L1 10c 12 ] [MD5:ef92aacd4e333009e7bba1a961e7875e,1f5a9c6ffcc6e0d6fee64421be777399,efbc4337eaccb02f1053975549dee5c4]
+POC    9 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2688 bits [Y 31.5468 dB    U 40.9597 dB    V 39.6303 dB] [ET    39 ] [L0 8 0 ] [L1 10c 12 ] [MD5:1b501afdc157f5513f22797a06644905,fbefa6b1ccd623d92eea2a589d18c095,99f66ebb02f806a7ceb91f5b62086fd0]
+POC    9 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8368 bits [Y 33.9421 dB    U 41.7769 dB    V 40.6722 dB] [ET    40 ] [L0 8 0 ] [L1 10c 12 ] [MD5:96e57dc627d90847348c3eb3d522df96,165de302031ed0c370deda1b63f1629a,cf49ea76fda54dc8ad456e93902595c3]
+POC    9 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      23928 bits [Y 36.4491 dB    U 42.6231 dB    V 41.5526 dB] [ET    47 ] [L0 8 0 9(3, {1.00, 1.00}x) ] [L1 10 12 9(3, {1.00, 1.00}x)c ] [MD5:7a71fb7774d023134946302d2c55c4e1,408c5054f4a13c93b1f59c81d34e8f91,0a53be45b177aa5d0560fc86cb229d69]
+POC   11 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        320 bits [Y 27.0120 dB    U 38.4766 dB    V 36.7441 dB] [ET    37 ] [L0 10c 8 ] [L1 12 16 ] [MD5:cdcd5da77f63c3a3a8078a5a0a5c47c1,b38ea7a25278a9d01740d5ab22141516,a3164640dd618689c308ebb3edfc5524]
+POC   11 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        880 bits [Y 28.8500 dB    U 39.7727 dB    V 38.2978 dB] [ET    38 ] [L0 10c 8 ] [L1 12 16 ] [MD5:135d2a633f78e6d3710b69bcd3397058,935170cccc5f8185297f11545d70f1ca,4a0fedaaf36fd5213f5ffb7012c0d6ab]
+POC   11 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2784 bits [Y 30.9667 dB    U 41.0071 dB    V 39.5896 dB] [ET    38 ] [L0 10c 8 ] [L1 12 16 ] [MD5:9bb4ea04c25208593d4dbaf0321fb7db,797a6c033186571b409f70e05497e076,7da93720e235c64aa96dab8fe09b1093]
+POC   11 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8224 bits [Y 33.3821 dB    U 41.7121 dB    V 40.5094 dB] [ET    40 ] [L0 10c 8 ] [L1 12 16 ] [MD5:c5f036a3e1f78797e803a290664db0af,a43dca7da37c46416881dc589928beb9,01a8d5245c1a8583a12ac5fae7969ebc]
+POC   11 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      25136 bits [Y 36.0462 dB    U 42.4136 dB    V 41.2778 dB] [ET    46 ] [L0 10 8 11(3, {1.00, 1.00}x)c ] [L1 12 16 11(3, {1.00, 1.00}x) ] [MD5:6c4650b166ae6b1a9eb3877e96a7f7ec,27a13d485bfe698e483fd98aab40eeb5,fe88c9ef8e45583d7fd72c23c5d7f0fc]
+POC   14 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        616 bits [Y 27.3844 dB    U 38.5218 dB    V 36.7487 dB] [ET    34 ] [L0 12c 8 ] [L1 16 12 ] [MD5:ae3d12279690759937799f226843793f,fcd95faabf66c916387249fc0684aad0,a7875d866d042a499356a874e035e3ac]
+POC   14 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       2144 bits [Y 29.1915 dB    U 39.7659 dB    V 38.3036 dB] [ET    34 ] [L0 12c 8 ] [L1 16 12 ] [MD5:28cbe727506e1904885910e323113de5,0e550b54672e8ad7a43680f6af4a5d18,67d80f84f3f20d888616d5ee1aa0fab2]
+POC   14 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       7552 bits [Y 31.3520 dB    U 41.0775 dB    V 39.6787 dB] [ET    36 ] [L0 12c 8 ] [L1 16 12 ] [MD5:fc2e264a045b51cc8bb53e28a7795fb4,7e7c6119c5a321817e4cd3b59f794fb6,d2a30cd26d1fe315dc686274eabc080e]
+POC   14 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      26280 bits [Y 33.8642 dB    U 41.7374 dB    V 40.5658 dB] [ET    40 ] [L0 12c 8 ] [L1 16 12 ] [MD5:40a48b2d2ef0d88656de650943a5b53b,f1513bc5b7cef7dc5acb6481237a4ceb,66dcd093cf7e17b2e05c6ddc91976e88]
+POC   14 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      61888 bits [Y 36.6977 dB    U 42.4872 dB    V 41.3565 dB] [ET    48 ] [L0 12 8 14(3, {1.00, 1.00}x)c ] [L1 16 12 14(3, {1.00, 1.00}x) ] [MD5:9bf645c6c63d58a1ad66c231bb370215,67d0f7bc87fb17ab71027dafb9d25346,6e3a77f6ef9d141143c7dc8ce14f4016]
+POC   13 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        264 bits [Y 27.1005 dB    U 38.5212 dB    V 36.7470 dB] [ET    36 ] [L0 12 8 ] [L1 14c 16 ] [MD5:5debf0857d29d9ba2277491396b137dc,838711acddf9a2768d5858fc3c128c02,d7fd3e255c0d72637a5cbd0df9c9340c]
+POC   13 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1000 bits [Y 28.9544 dB    U 39.7841 dB    V 38.3128 dB] [ET    38 ] [L0 12 8 ] [L1 14c 16 ] [MD5:c0047a87364de8b849f8b906ea23ed94,8c937e488db1d5ce3f0a18ca2861a01b,71fbd9f37115fe1817a0872902a47a8e]
+POC   13 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2672 bits [Y 31.0509 dB    U 41.0414 dB    V 39.6210 dB] [ET    37 ] [L0 12 8 ] [L1 14c 16 ] [MD5:1de526fadeed8ec68b5186e6afdd11a7,bbc9ef15f59a10525247a24b1e0e2de1,34ffa26d61d6cb7d56422484f77e47c3]
+POC   13 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8504 bits [Y 33.4771 dB    U 41.7200 dB    V 40.5326 dB] [ET    41 ] [L0 12 8 ] [L1 14c 16 ] [MD5:55ae37475c85ac63351d4791231acd18,4e4f84febad654d88257d37c51fc5ccd,68f3b5066fc3fe614ed4e0dd62d260fb]
+POC   13 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      24040 bits [Y 36.0389 dB    U 42.4429 dB    V 41.3196 dB] [ET    47 ] [L0 12 8 13(3, {1.00, 1.00}x) ] [L1 14 16 13(3, {1.00, 1.00}x)c ] [MD5:2f7fa6cacc9018ec553dc8b8c445a0e7,c68477c9640608c373101b34b5a4c07c,f73dc65c28ebc033092f944598d92753]
+POC   15 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        288 bits [Y 27.7415 dB    U 38.5135 dB    V 36.7729 dB] [ET    32 ] [L0 14c 12 ] [L1 16 14 ] [MD5:788b04cb7915640848fc27e75b556097,c72967275c4757d7f7f9e54af474e44e,9a5651049562c66a17188762bdf975c5]
+POC   15 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1024 bits [Y 29.7039 dB    U 39.7182 dB    V 38.3751 dB] [ET    33 ] [L0 14c 12 ] [L1 16 14 ] [MD5:13f34703fd36a92eb91a72f343c0aeb2,cc9a24cf4847a923ceb5bca978628395,d714097f2498e7c4707304eadcac0a5f]
+POC   15 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2616 bits [Y 31.8844 dB    U 41.1204 dB    V 39.7939 dB] [ET    33 ] [L0 14c 12 ] [L1 16 14 ] [MD5:927112a594f774620b5c52b4e757314a,479b27c22f4d3b6bd501230edfffb14a,25d30a8d1da5ab37549cae7d5a7ffa8a]
+POC   15 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       7688 bits [Y 34.1319 dB    U 41.7494 dB    V 40.6440 dB] [ET    35 ] [L0 14c 12 ] [L1 16 14 ] [MD5:0a0a2e8840a124a3c0bda6b3b6c66dab,c063223a67a62b24d2b664f0ed79e1ef,3965da2ea2d9e7a574def72b7ffa2426]
+POC   15 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      23552 bits [Y 36.5339 dB    U 42.7528 dB    V 41.6939 dB] [ET    42 ] [L0 14 12 15(3, {1.00, 1.00}x)c ] [L1 16 14 15(3, {1.00, 1.00}x) ] [MD5:2c948b214c99a82f0fe91712b5221880,58ab64d1b2da6126130a47b01fac1227,676f2d9f5d6eb3219804a7e3c1394a3f]
+POC   32 LId: 0 TId: 0 ( B-SLICE    TRAIL_R, nQP 51 QP 51 )      15504 bits [Y 28.1353 dB    U 38.2481 dB    V 36.6822 dB] [ET    37 ] [L0 16 0 ] [L1 16c 0 ] [MD5:f7bf492370cf82f359697cd4094215ea,9d16628ea26b3c294f8e7f33e1a0986a,97d937958facd8831eeb341bf8aaef51]
+POC   32 LId: 1 TId: 0 ( B-SLICE     STSA_R, nQP 46 QP 46 )      28064 bits [Y 30.3146 dB    U 39.4021 dB    V 38.1867 dB] [ET    41 ] [L0 16 0 32(0, {1.00, 1.00}x) ] [L1 16 0 32(0, {1.00, 1.00}x)c ] [MD5:ea72a22c5479c55a49d8f4560baca166,d29abdb8a9245ded89e2f1b07cd857d2,ce75157a65e3ce0485146ac0c001a357]
+POC   32 LId: 2 TId: 0 ( B-SLICE     STSA_R, nQP 41 QP 41 )      89576 bits [Y 33.2326 dB    U 40.9641 dB    V 39.7966 dB] [ET    50 ] [L0 16 0 ] [L1 16 0 32(0, {1.00, 1.00}x)c ] [MD5:edd998e8a736b0075c1160d515ec11d9,f00a86ce0b59536fb7b65aa01c55e1ef,3440f1408d2b6310388ee428cf969e37]
+POC   32 LId: 3 TId: 0 ( B-SLICE     STSA_R, nQP 36 QP 36 )     174440 bits [Y 36.2724 dB    U 41.6519 dB    V 40.6376 dB] [ET    58 ] [L0 16 0 32(0, {1.00, 1.00}x) ] [L1 16c 0 32(0, {1.00, 1.00}x) ] [MD5:0a746a994de49a051226a18e371759e0,37fd6deb3ecb727800efc5f9504a0d52,1767045675bc2f698a391a99405fa372]
+POC   32 LId: 4 TId: 0 ( B-SLICE     STSA_R, nQP 31 QP 31 )     174768 bits [Y 39.0990 dB    U 42.7821 dB    V 41.9263 dB] [ET    60 ] [L0 16 0 32(3, {1.00, 1.00}x) ] [L1 16 0 32(3, {1.00, 1.00}x)c ] [MD5:3770572cc675c1e8e7b9e7ece826f197,24323518b4d5422383f200b233f19d94,27db4bc477be26bf87b692e4d85b2595]
+POC   24 LId: 0 TId: 1 ( B-SLICE    TRAIL_R, nQP 51 QP 51 )       7832 bits [Y 27.6014 dB    U 38.3224 dB    V 36.4890 dB] [ET    39 ] [L0 16 8 ] [L1 32c 16 ] [MD5:43c8b27fea9321b4c43852617ae7ca52,6f9a56addbca89a0cdccaed5f87c5350,b65bd517645bbd48590534b7f279c175]
+POC   24 LId: 1 TId: 1 ( B-SLICE    TRAIL_R, nQP 47 QP 47 )      22632 bits [Y 29.8587 dB    U 39.4974 dB    V 38.0718 dB] [ET    44 ] [L0 16 8 ] [L1 32c 16 ] [MD5:75ff0a5f7531ec56e868ad538b1699a2,2b9c98123962f5fb6e8bc62571a77220,e671c8e3e10cb716bb4eef7c7cc4c07a]
+POC   24 LId: 2 TId: 1 ( B-SLICE    TRAIL_R, nQP 42 QP 42 )      57768 bits [Y 32.4865 dB    U 40.8637 dB    V 39.4670 dB] [ET    52 ] [L0 16 8 ] [L1 32c 16 ] [MD5:f815568ae3b7dbd51e52e94d9f399897,23ee5c1cbda57aa8988d2c72b28ddbf8,fbbeba308cf1570c9b48fb2362a7ec11]
+POC   24 LId: 3 TId: 1 ( B-SLICE    TRAIL_R, nQP 37 QP 37 )     129024 bits [Y 35.4237 dB    U 41.5777 dB    V 40.5011 dB] [ET    59 ] [L0 16 8 ] [L1 32c 16 ] [MD5:d3f0a5140c1ff2866309fd03b56a9c64,abb72e63ba69694b77a2fc9bb92140d0,f9c671b8c4d3ecc9c85137373d0cb8db]
+POC   24 LId: 4 TId: 1 ( B-SLICE    TRAIL_R, nQP 32 QP 32 )     154560 bits [Y 38.6220 dB    U 42.4853 dB    V 41.5254 dB] [ET    66 ] [L0 16 8 24(3, {1.00, 1.00}x) ] [L1 32 16 24(3, {1.00, 1.00}x)c ] [MD5:ec3bb66ea1d886ac57e11abed5bcfa65,bd74fe751f3e73bbbdc5401ce3828aef,bf1850cb91a84291e9315cfa80e4a01c]
+POC   20 LId: 0 TId: 2 ( B-SLICE      TSA_N, nQP 51 QP 51 )       1384 bits [Y 27.1821 dB    U 38.4730 dB    V 36.6063 dB] [ET    40 ] [L0 16 8 ] [L1 24c 32 ] [MD5:3f725280957c926befbde5ae611076ad,40f6360dd2007989bf63e482b9d80d74,61f337a9e60ee06459ca21ef01ba445b]
+POC   20 LId: 1 TId: 2 ( B-SLICE      TSA_N, nQP 48 QP 48 )       5984 bits [Y 28.9617 dB    U 39.6908 dB    V 38.1670 dB] [ET    43 ] [L0 16 8 ] [L1 24c 32 ] [MD5:2e53b8febc89ce2b5c0c3ad08ad098d1,ba0000b6d43e7d8ffee79d7128263c79,fe6fa49d0e30f08e0aceb884eb668f0e]
+POC   20 LId: 2 TId: 2 ( B-SLICE      TSA_N, nQP 43 QP 43 )      22448 bits [Y 31.3543 dB    U 40.9938 dB    V 39.4641 dB] [ET    47 ] [L0 16 8 ] [L1 24c 32 ] [MD5:a183445ed7960fe789a0eda415b2e202,487f4e2760ce94c49c70747b75c654f2,f8137c2335dd9066fc9cb4fca8b8c31f]
+POC   20 LId: 3 TId: 2 ( B-SLICE      TSA_N, nQP 38 QP 38 )      61768 bits [Y 34.0390 dB    U 41.6105 dB    V 40.3345 dB] [ET    53 ] [L0 16 8 ] [L1 24c 32 ] [MD5:35bea0f3c4d963ef4458c211c1847c7d,2afc942cfc1d7dd4b1bf5ed355d5e2a4,942fa354f7e2efbc869f64ff38e70174]
+POC   20 LId: 4 TId: 2 ( B-SLICE      TSA_N, nQP 33 QP 33 )      97808 bits [Y 37.0918 dB    U 42.2775 dB    V 41.0639 dB] [ET    63 ] [L0 16 8 20(3, {1.00, 1.00}x) ] [L1 24 32 20(3, {1.00, 1.00}x)c ] [MD5:5330a54d841af45a98427c82097ef516,6a8f36a689afa190582b158627830c63,58af8961bfbc91a0815a51ea9d1d0766]
+POC   18 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        632 bits [Y 27.4893 dB    U 38.4638 dB    V 36.6560 dB] [ET    39 ] [L0 16 8 ] [L1 20c 24 ] [MD5:1030182d1183ba4d98fdf93d8ad7348a,c8ce2a4ca62aa93d62f68f7a811b124a,671f5f27f69c28106492815c09039bdd]
+POC   18 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       1904 bits [Y 29.1907 dB    U 39.6606 dB    V 38.2214 dB] [ET    41 ] [L0 16 8 ] [L1 20c 24 ] [MD5:2cbb62107377f14286919e1394425650,4f3c2809b88cc9660f8e78461a03a875,5bcf77dcf26bdd8d515de3114c01d2d5]
+POC   18 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       6768 bits [Y 31.3234 dB    U 41.0572 dB    V 39.5834 dB] [ET    43 ] [L0 16 8 ] [L1 20c 24 ] [MD5:b701154386f1538489748864c70db2d2,88b9ce3d4ad2dccba49a774ebb80333d,0ad53825c9012a27453ccb02a7674315]
+POC   18 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      24952 bits [Y 33.8293 dB    U 41.6402 dB    V 40.4371 dB] [ET    46 ] [L0 16 8 ] [L1 20c 24 ] [MD5:e2198311600a9d3519db0cc2aab3bd62,18a0fbf889243cddedf42b034cdca16d,4d3e46759631b3556dcfd382dea2a17e]
+POC   18 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      61616 bits [Y 36.6824 dB    U 42.4714 dB    V 41.2374 dB] [ET    56 ] [L0 16 8 18(3, {1.00, 1.00}x) ] [L1 20 24 18(3, {1.00, 1.00}x)c ] [MD5:e5e6287445b53b528c3f69f189152c1e,33e490ca02c1915e54d3a2a3a42a63da,cd507c8d3d95afeaa2828834ef896e6f]
+POC   17 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        280 bits [Y 27.7489 dB    U 38.4598 dB    V 36.7351 dB] [ET    34 ] [L0 16 18 ] [L1 18c 20 ] [MD5:fa82e885d31cb33d8b315a2125195403,a8e2c775ebad4334edd6d54486dc0761,245b9a78b4b00eb18f38618506c46546]
+POC   17 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        928 bits [Y 29.6691 dB    U 39.6511 dB    V 38.3035 dB] [ET    32 ] [L0 16 18 ] [L1 18c 20 ] [MD5:cb8cf13402354305999c202280f18383,9ab5bc0c0af99ec5a45a6fc3770b7408,2ff8b0df98bf625a90bc0df0f66347ea]
+POC   17 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2424 bits [Y 31.8314 dB    U 41.0783 dB    V 39.7301 dB] [ET    35 ] [L0 16 18 ] [L1 18c 20 ] [MD5:86f96938f70dc8e255ef715b8233e4c2,412117f244b08ab7d6c26d0b4c6901f7,29cd82c31347009019e18bc0c3f17d8a]
+POC   17 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8160 bits [Y 34.1651 dB    U 41.6616 dB    V 40.5566 dB] [ET    35 ] [L0 16 18 ] [L1 18c 20 ] [MD5:def7add0220fbca3f27800f5000ea381,71580a71eae89aef416563dbf0fbe62d,f9703cad22acff3b1d1144f2ea2703d5]
+POC   17 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      22784 bits [Y 36.4889 dB    U 42.7105 dB    V 41.6125 dB] [ET    44 ] [L0 16 18 17(3, {1.00, 1.00}x) ] [L1 18 20 17(3, {1.00, 1.00}x)c ] [MD5:36d6cd64fed682c9cb01a4bfa77cbf7a,e52a0e65fe6431c98dff7c1b32a2b090,fcf0b2ced66cbc9ab2a9c663a0741151]
+POC   19 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        288 bits [Y 27.2768 dB    U 38.4908 dB    V 36.6153 dB] [ET    39 ] [L0 18c 16 ] [L1 20 24 ] [MD5:8474586bdf89429391ecff026ba0720b,5f8fc70dc34bbd1c33c92c90741d4640,61f8c9d8c57f0983ec397d9e679eda0c]
+POC   19 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        992 bits [Y 28.9882 dB    U 39.7134 dB    V 38.1920 dB] [ET    40 ] [L0 18c 16 ] [L1 20 24 ] [MD5:6e77e35cffa24ece055f6c4a13403321,cc1c79ba58d568f29b560f018c6ee7cc,82cd12bc9d0c4a24302bf8ef7ec3d87d]
+POC   19 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2840 bits [Y 31.1201 dB    U 41.0481 dB    V 39.5099 dB] [ET    42 ] [L0 18c 16 ] [L1 20 24 ] [MD5:cf7f7dd8463f8fd511c2ff37b8789a31,a23d4774e2391c0055c3e01b49fc278a,96b10f58eb720d77da8e13d92d25934f]
+POC   19 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8392 bits [Y 33.4576 dB    U 41.6758 dB    V 40.3841 dB] [ET    46 ] [L0 18c 16 ] [L1 20 24 ] [MD5:4fd309f72b015d55aa1cccccefb36f20,12677aab61384d692f8a1d3b43e82e20,3d6623428d3841642305cb7bf67a6763]
+POC   19 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      24224 bits [Y 36.0927 dB    U 42.4276 dB    V 41.1707 dB] [ET    51 ] [L0 18 16 19(3, {1.00, 1.00}x)c ] [L1 20 24 19(3, {1.00, 1.00}x) ] [MD5:dc3b81a88355fc338499d54e4da0cfc7,a2015379e7ee07bfc323ebe12a213f1f,328febfe667ea8a1189b0a3a1fae4d0b]
+POC   22 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        608 bits [Y 27.1806 dB    U 38.4572 dB    V 36.5849 dB] [ET    43 ] [L0 20c 16 ] [L1 24 32 ] [MD5:4cfaae67dfde0671375cb00a7cd37f53,aab18712eabba7271eaf81ca645e4332,635934687a5e81a77fd13cc147e1c86d]
+POC   22 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       1672 bits [Y 28.9740 dB    U 39.6568 dB    V 38.1106 dB] [ET    45 ] [L0 20c 16 ] [L1 24 32 ] [MD5:9df3d2cbbcb1e39b2ea9bb8b823f3659,e9c11326a41487312e93712cb1b9f6d9,934e41185e7e22356256275438cf131b]
+POC   22 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       7176 bits [Y 31.1503 dB    U 40.9341 dB    V 39.4290 dB] [ET    46 ] [L0 20c 16 ] [L1 24 32 ] [MD5:f292ead001db4c684821111bfe94ead3,66743fc5844148246fe1645d75e0a6d7,404107685f8cd577f3d35375053bc43c]
+POC   22 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      26536 bits [Y 33.7131 dB    U 41.6370 dB    V 40.3757 dB] [ET    51 ] [L0 20c 16 ] [L1 24 32 ] [MD5:24d7f5c71aec5f770a89e4176b874ebf,2db6868118180b3b235729600585dbc5,8a4bb10a0a2e6fc4c729a977a3d0b213]
+POC   22 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      61352 bits [Y 36.5910 dB    U 42.3153 dB    V 41.0978 dB] [ET    61 ] [L0 20 16 22(3, {1.00, 1.00}x)c ] [L1 24 32 22(3, {1.00, 1.00}x) ] [MD5:b452bf1fbce49801d245e3ef98f0c4c8,d1f3ea5972628acc0408f49ffcd5b429,ee4bb245d1eab08b400e8a9d428a3183]
+POC   21 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        272 bits [Y 27.0644 dB    U 38.4803 dB    V 36.6055 dB] [ET    40 ] [L0 20 16 ] [L1 22c 24 ] [MD5:b413a32457bee423cc6c4a57beed46a1,ea61b2bc731d681e53c0965db4290883,e33fd525b95ea293fa93a3267d9cdf20]
+POC   21 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        976 bits [Y 28.8667 dB    U 39.7047 dB    V 38.1663 dB] [ET    41 ] [L0 20 16 ] [L1 22c 24 ] [MD5:d55ee540d150299de24d9998e255e9fc,cea9a932f479ee4e19daa50b5c40531e,165dce5a016805af7a331590dafdd6f6]
+POC   21 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2480 bits [Y 30.9832 dB    U 40.9655 dB    V 39.4528 dB] [ET    41 ] [L0 20 16 ] [L1 22c 24 ] [MD5:fafa515f5ad1f802fc07a06b13ef71c7,cc7ed8e2fdba753a031337d6d47130f8,2a1a0823f38644ba878d9574514b415b]
+POC   21 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8040 bits [Y 33.3460 dB    U 41.6359 dB    V 40.3718 dB] [ET    44 ] [L0 20 16 ] [L1 22c 24 ] [MD5:ad433e6607176fc0d40fd3e343f6c376,61362a7430b9b016a1f8f36329736d34,ea152bb624f2a0cd0946cec0cf74fbe0]
+POC   21 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      25296 bits [Y 36.0258 dB    U 42.3197 dB    V 41.1069 dB] [ET    51 ] [L0 20 16 21(3, {1.00, 1.00}x) ] [L1 22 24 21(3, {1.00, 1.00}x)c ] [MD5:002860ef313bb3518b00c220b9ebbaa8,63efb42e779d698c2e89cf9f7ce7c711,11e5f5da72ac0cbbbf8b6f00c51b2ac0]
+POC   23 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        272 bits [Y 27.3149 dB    U 38.3914 dB    V 36.4590 dB] [ET    40 ] [L0 22c 20 ] [L1 24 32 ] [MD5:eaea621d50e3c1163d8324a5ee59dfab,3a4ab841963e1614f961f9295661760f,02e6bb6a7922943c02f71ee496cf971a]
+POC   23 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1024 bits [Y 29.3613 dB    U 39.6045 dB    V 38.1117 dB] [ET    41 ] [L0 22c 20 ] [L1 24 32 ] [MD5:e6392845dfd099bc945cda4e72091416,0bbc40850fa366b57f4e9d9bec452f34,acacc270661194d4cdb67e9e61167041]
+POC   23 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2520 bits [Y 31.4829 dB    U 40.8957 dB    V 39.4401 dB] [ET    41 ] [L0 22c 20 ] [L1 24 32 ] [MD5:a14cad0605a2107b13451f226bb6acdd,784f4c886914f7856f8d2c64cc00a827,4c8d4574da686e0eadaf53594bc644b2]
+POC   23 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8344 bits [Y 33.8555 dB    U 41.6160 dB    V 40.4245 dB] [ET    45 ] [L0 22c 20 ] [L1 24 32 ] [MD5:d1a82651069fb69fb7bee3374f0773b6,d600dc6f743dd5e52252c8aafbd90776,1df0ddebb29e212d04aac4e0e9829004]
+POC   23 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      24192 bits [Y 36.4040 dB    U 42.4516 dB    V 41.3218 dB] [ET    52 ] [L0 22 20 23(3, {1.00, 1.00}x)c ] [L1 24 32 23(3, {1.00, 1.00}x) ] [MD5:e94e7bf7508e14c9556357e648933202,d67b77a5617db96798be8ba34ca1bd50,c98fe45b963882397447a768449eccc5]
+POC   28 LId: 0 TId: 2 ( B-SLICE      TSA_N, nQP 51 QP 51 )       1464 bits [Y 27.1174 dB    U 38.3516 dB    V 36.6209 dB] [ET    38 ] [L0 24c 16 ] [L1 32 24 ] [MD5:320e58fd3d98017ddecc97cc8e0f6a62,cf0cd437f9a001a0f9edb8f17237a2ea,bbc3109e89e7cf45766dcdf8464dc347]
+POC   28 LId: 1 TId: 2 ( B-SLICE      TSA_N, nQP 48 QP 48 )       6240 bits [Y 28.9225 dB    U 39.6029 dB    V 38.0966 dB] [ET    42 ] [L0 24c 16 ] [L1 32 24 ] [MD5:ab083305d9030a61b710da65ebad82d1,c40b8d100a9872adeadc709176e6ef7d,90a37ddd1c5c0050cfd7e0f68647028c]
+POC   28 LId: 2 TId: 2 ( B-SLICE      TSA_N, nQP 43 QP 43 )      22072 bits [Y 31.2370 dB    U 40.9120 dB    V 39.4860 dB] [ET    45 ] [L0 24c 16 ] [L1 32 24 ] [MD5:31b484f02172472d100959a4055cfd83,459c670ac64dfa9f7baf84ca60cabf15,818271f8d3f29b1101739d6e0bae0151]
+POC   28 LId: 3 TId: 2 ( B-SLICE      TSA_N, nQP 38 QP 38 )      62024 bits [Y 33.9745 dB    U 41.5184 dB    V 40.2782 dB] [ET    52 ] [L0 24c 16 ] [L1 32 24 ] [MD5:22e906899b643a0c2e42c2be6fad08ff,56c7707d3eed8532e1895ce7bace699b,364630cf7f44acaf807140f4389eefeb]
+POC   28 LId: 4 TId: 2 ( B-SLICE      TSA_N, nQP 33 QP 33 )      97112 bits [Y 36.9992 dB    U 42.1291 dB    V 40.9856 dB] [ET    59 ] [L0 24 16 28(3, {1.00, 1.00}x)c ] [L1 32 24 28(3, {1.00, 1.00}x) ] [MD5:5afa19f94b443dbbb7dcfdff839e38ec,4e3b523647e1c99f17647f2d39f94ffa,c6f90ba69918cee5efff0c9585d5c267]
+POC   26 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        664 bits [Y 27.1510 dB    U 38.3668 dB    V 36.5638 dB] [ET    42 ] [L0 24 16 ] [L1 28c 32 ] [MD5:def370d42e8bb68764d6e06fd4edce2b,163f129470087314735a98e769bf951b,d6309364069af2de1c95d6cdb9c75a69]
+POC   26 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       1984 bits [Y 28.9477 dB    U 39.5916 dB    V 38.0731 dB] [ET    43 ] [L0 24 16 ] [L1 28c 32 ] [MD5:62379bd11ceecef26be21c9bd45e6cd3,c5f041804f851afc5f5fe146d86cea69,9c051cd394254a79f2b89030b166c7cf]
+POC   26 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       7288 bits [Y 31.0574 dB    U 40.9076 dB    V 39.4360 dB] [ET    45 ] [L0 24 16 ] [L1 28c 32 ] [MD5:cd0494d0bb0916c2b44a1b65c8d30263,c1fa82782b73964ff1c6a939dc25a785,9f3a42b2352c85f8840f63906d93ea7f]
+POC   26 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      27784 bits [Y 33.6723 dB    U 41.5559 dB    V 40.3029 dB] [ET    49 ] [L0 24 16 ] [L1 28c 32 ] [MD5:822e51fb7e384ed2943d78304d9e0078,f8baf38d6e44b1b36751b114cfb3c8bc,40b84a50daff47d3e9b608498fd3d391]
+POC   26 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      63752 bits [Y 36.5905 dB    U 42.2297 dB    V 41.0250 dB] [ET    58 ] [L0 24 16 26(3, {1.00, 1.00}x) ] [L1 28 32 26(3, {1.00, 1.00}x)c ] [MD5:b9bd604f8fb3c21fa75a1d465cd64329,d8d4abc096f685733d75d4a9e2fc8794,2e87ddb2ec9089c98c2514b48ea2fc0b]
+POC   25 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        312 bits [Y 27.3333 dB    U 38.3559 dB    V 36.4944 dB] [ET    39 ] [L0 24 16 ] [L1 26c 28 ] [MD5:c7f8d758f9209af60ec6b43a2f9b8eda,96970bdf4cc556a8d515c8e61744a464,7cfd6ade5c2d36ec5152081f2d38416c]
+POC   25 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        984 bits [Y 29.3385 dB    U 39.5677 dB    V 38.1037 dB] [ET    39 ] [L0 24 16 ] [L1 26c 28 ] [MD5:87c1a4ad775fc4e27ea149d29196ce30,de4f494cec6ebdcd1e21d1bce1912d2b,d13c8cac864f40a25a0ab44ce3889921]
+POC   25 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2720 bits [Y 31.4470 dB    U 40.8989 dB    V 39.4708 dB] [ET    41 ] [L0 24 16 ] [L1 26c 28 ] [MD5:cebefdcbe2dcab4d0ca9194939a10bdc,5b27a97619134859732c15b4fc3642e0,7a4c9c9dcda94c8d4096afd198c224c4]
+POC   25 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8688 bits [Y 33.7945 dB    U 41.5769 dB    V 40.4055 dB] [ET    42 ] [L0 24 16 ] [L1 26c 28 ] [MD5:8318ca581432ff7d4f4cb177cd873a06,14e3b742544feefcf30e5b8c017dc54f,9183dd36bd8d9204d414145a25647f2c]
+POC   25 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      25056 bits [Y 36.3608 dB    U 42.4061 dB    V 41.2783 dB] [ET    50 ] [L0 24 16 25(3, {1.00, 1.00}x) ] [L1 26 28 25(3, {1.00, 1.00}x)c ] [MD5:a83042f6b120b83ede44319dabb678ba,6cc621c9b6e0a6a5fca8d758f5816023,9c0587a3fc64a92d282b6ede456910ae]
+POC   27 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        296 bits [Y 27.0606 dB    U 38.3679 dB    V 36.5952 dB] [ET    38 ] [L0 26c 24 ] [L1 28 32 ] [MD5:a3067183d4b8e20ca6efb72fb5f93ea5,a0b5cc7c6a56ef042e41edfb1c5ced21,c30ca5c1b5e1b2d4e06cb5544bbe44f4]
+POC   27 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        896 bits [Y 28.8072 dB    U 39.6129 dB    V 38.1240 dB] [ET    38 ] [L0 26c 24 ] [L1 28 32 ] [MD5:3865f1bc84711bfbc1cd89171d75a54a,f2b00fc0931a125e18da74a44b0e07d8,b94ba53b7f52cad7dfdb41865d517fc3]
+POC   27 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2872 bits [Y 30.8787 dB    U 40.9148 dB    V 39.4770 dB] [ET    40 ] [L0 26c 24 ] [L1 28 32 ] [MD5:b1802adc1bf0b252e87f2985af1151bc,92da5f90681c3853346c2f5f0c6abb5d,a9b7cb229cebd8fb98a02346ed7f379e]
+POC   27 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8680 bits [Y 33.2799 dB    U 41.5331 dB    V 40.2789 dB] [ET    42 ] [L0 26c 24 ] [L1 28 32 ] [MD5:3fc63badb194cceeee3fe094a6ab833b,ee4d3774e3482b80f22540487f80282e,4ed9adfa32229bdda465428505155141]
+POC   27 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      25984 bits [Y 35.9478 dB    U 42.1896 dB    V 41.0150 dB] [ET    48 ] [L0 26 24 27(3, {1.00, 1.00}x)c ] [L1 28 32 27(3, {1.00, 1.00}x) ] [MD5:adea4e1b222834fcbaccc1d33cee666a,c0f1ca199eef57a1c78cc3bdf522ae7e,72460a82ee8d9519b42e977ac0a888bc]
+POC   30 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        600 bits [Y 27.4575 dB    U 38.3236 dB    V 36.6537 dB] [ET    35 ] [L0 28c 24 ] [L1 32 28 ] [MD5:ffe38a197c305b5042780725e71b5145,33426964cfe87e7e5d4300a546305c27,e88b5f8519e3e1e1b8e1b13802546cf2]
+POC   30 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       1976 bits [Y 29.1595 dB    U 39.5935 dB    V 38.1264 dB] [ET    36 ] [L0 28c 24 ] [L1 32 28 ] [MD5:d2cbffd35aa896002b26be064a77a7fc,b24fd340c1706e0b68036ab9ae2ffc7c,b2b22f9b158ca6ed68e734e211428978]
+POC   30 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       7360 bits [Y 31.3338 dB    U 40.9887 dB    V 39.6004 dB] [ET    39 ] [L0 28c 24 ] [L1 32 28 ] [MD5:2ecab6dccdaa8cd94f67a2a61654c02b,b935f909ba60fc4f207dd228bceb38ab,a40c112bd6729b991bf4c4d94616317f]
+POC   30 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      25872 bits [Y 33.8613 dB    U 41.6238 dB    V 40.4426 dB] [ET    42 ] [L0 28c 24 ] [L1 32 28 ] [MD5:9dfae50ab198fb64050c90cff0b0fa9a,01b9169a5d5fc2486da4cae002123395,4cadd7687a623c5ce85f9a022ba5e501]
+POC   30 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      60456 bits [Y 36.6720 dB    U 42.3239 dB    V 41.2105 dB] [ET    49 ] [L0 28 24 30(3, {1.00, 1.00}x)c ] [L1 32 28 30(3, {1.00, 1.00}x) ] [MD5:6f233f1df93c6015409d47376be91d8b,179757b1348478665d473f6d9c24fc0b,0d05da793189a403defdd8475209b3ee]
+POC   29 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        296 bits [Y 27.2242 dB    U 38.3597 dB    V 36.6316 dB] [ET    37 ] [L0 28 24 ] [L1 30c 32 ] [MD5:27f567d329c1efb9adfc828ddc1bace1,ed44bdf18c15e328fa6bc4b51bf87084,1eaf46cc10d3176c972f9c49b52f3f6d]
+POC   29 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        768 bits [Y 28.9205 dB    U 39.6452 dB    V 38.1484 dB] [ET    39 ] [L0 28 24 ] [L1 30c 32 ] [MD5:ac76afed71ebfc7e670a2fb54c2597a3,1f64c71c673af480e260d2faff9b0f0d,9551fbe6215d93886a99251511f2f99d]
+POC   29 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2440 bits [Y 31.0212 dB    U 40.9784 dB    V 39.5533 dB] [ET    39 ] [L0 28 24 ] [L1 30c 32 ] [MD5:a63cfb29bd308cf2f889f82a80c0f91e,49a9ed8bf2841a8b201bd9bba9148843,29b198979fb48a1f7325ca56b9264ae0]
+POC   29 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8728 bits [Y 33.4060 dB    U 41.6254 dB    V 40.3866 dB] [ET    41 ] [L0 28 24 ] [L1 30c 32 ] [MD5:b2bebf35cec2c497a3c71e74305ce8c6,f18a1da6f11211c5d830862fcd57b816,9483b5de0d768bdc3d104b0589170f49]
+POC   29 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      25304 bits [Y 36.0173 dB    U 42.3141 dB    V 41.1429 dB] [ET    49 ] [L0 28 24 29(3, {1.00, 1.00}x) ] [L1 30 32 29(3, {1.00, 1.00}x)c ] [MD5:66db50dfca1029973671bf424093054b,dbf670bbc8ab852e3dfe2dff8ceef6d0,6291dd170cf75d2ac0e04166d77a86f0]
+POC   31 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        360 bits [Y 27.7673 dB    U 38.3164 dB    V 36.6622 dB] [ET    33 ] [L0 30c 28 ] [L1 32 30 ] [MD5:546ec2eaac345ab0701735218d24dc08,f1f21e2d82bee8b331d1220ada2a8b8a,700f55d6942d34bea5fe2d97a3649a9f]
+POC   31 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )        832 bits [Y 29.5861 dB    U 39.5816 dB    V 38.1937 dB] [ET    33 ] [L0 30c 28 ] [L1 32 30 ] [MD5:a7354e2650215d039949f3aaa3269dbc,18fc37e19f2717d1fc1e702bc44ccc8f,0e7b2b8ddd93f62d555923ead38eda9c]
+POC   31 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2736 bits [Y 31.7851 dB    U 41.0033 dB    V 39.6889 dB] [ET    34 ] [L0 30c 28 ] [L1 32 30 ] [MD5:f8eb3b948f4d491615ab321599c2eda7,3e9369cf323fc60ccaa909655107a95d,92340076c4f5750528d1242a1b2b471c]
+POC   31 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8880 bits [Y 34.0899 dB    U 41.6566 dB    V 40.5064 dB] [ET    36 ] [L0 30c 28 ] [L1 32 30 ] [MD5:465a05c99b2ae6f6027b3eda5ac720f0,0c4564f911845bcaa7f72070c3eb0248,9b163a0f74cd2f8c091b88cead41b2dc]
+POC   31 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      24176 bits [Y 36.5015 dB    U 42.5721 dB    V 41.5239 dB] [ET    43 ] [L0 30 28 31(3, {1.00, 1.00}x)c ] [L1 32 30 31(3, {1.00, 1.00}x) ] [MD5:dcb1ec7c58c5bd0b28a2b253aecf4169,9af22cfa261fd5ea1850198694d1b088,9fe68c0419a6c29d04b36dac6f92e528]
+POC   48 LId: 0 TId: 0 ( I-SLICE        CRA, nQP 50 QP 50 )      36616 bits [Y 29.4920 dB    U 38.3777 dB    V 37.1185 dB] [ET    11 ] [L0 ] [L1 ] [MD5:12800eabc426a28336bacdd27e2f6c3c,ca9e2e71bedb6416b5a18a53a7f8ced9,37e5fde9f2f8f18a987ff9a76c4c661f]
+POC   48 LId: 1 TId: 0 ( P-SLICE        CRA, nQP 45 QP 45 )      60240 bits [Y 31.9958 dB    U 39.9036 dB    V 38.8659 dB] [ET    15 ] [L0 48(0, {1.00, 1.00}x)c ] [L1 ] [MD5:8119f5fec15b4a34719482ce9422aab2,24676d9d9752b01bc40030bac42fe466,bbf45374ba8a1704b4128979e30c4f25]
+POC   48 LId: 2 TId: 0 ( I-SLICE        CRA, nQP 40 QP 40 )     165312 bits [Y 35.0136 dB    U 41.2612 dB    V 40.2818 dB] [ET    12 ] [L0 ] [L1 ] [MD5:24559744313276c049181365173e9548,929e9618181f4816067082fca0c6d12d,c33f04c016e8b04dcd8c25d5ca606580]
+POC   48 LId: 3 TId: 0 ( P-SLICE        CRA, nQP 35 QP 35 )     293104 bits [Y 38.0408 dB    U 42.3142 dB    V 41.4067 dB] [ET    16 ] [L0 48(0, {1.00, 1.00}x) ] [L1 ] [MD5:39c7b12a18e55c6e63b32c3d33db3de4,ba541b4ee39ba963440a05c525bd52b7,19ea10f11581dca955a9f30d086e1372]
+POC   48 LId: 4 TId: 0 ( P-SLICE        CRA, nQP 30 QP 30 )     257624 bits [Y 40.8520 dB    U 43.6834 dB    V 42.8889 dB] [ET    17 ] [L0 48(3, {1.00, 1.00}x)c ] [L1 ] [MD5:2f4283bda149a968ca0564f520344aa7,c0a2dac71653894a39f67b6bf7147104,d323cce9b7727fc4d02bbcbf8ca3dd06]
+POC   40 LId: 0 TId: 1 ( B-SLICE     RASL_R, nQP 51 QP 51 )       8424 bits [Y 27.9090 dB    U 38.5032 dB    V 36.9176 dB] [ET    37 ] [L0 32 24 ] [L1 48c 32 ] [MD5:703277a3dc3424ba4f3d069ff46bed22,ff2c2104f6597e8497faa8c91d61f696,7fc4e5f5b39b52e7198b64437b9da452]
+POC   40 LId: 1 TId: 1 ( B-SLICE     RASL_R, nQP 47 QP 47 )      21864 bits [Y 30.0704 dB    U 39.7735 dB    V 38.4560 dB] [ET    43 ] [L0 32 24 ] [L1 48c 32 ] [MD5:164ac61d46acb24680dd903918fba7b0,f4ac154d151c9335fcb44a8b77f36406,b600fd2af739e7a9c7ec44948dadbf88]
+POC   40 LId: 2 TId: 1 ( B-SLICE     RASL_R, nQP 42 QP 42 )      55648 bits [Y 32.6990 dB    U 40.9880 dB    V 39.7078 dB] [ET    49 ] [L0 32 24 ] [L1 48c 32 ] [MD5:bb68eab63a84a35b9c5f2e113c0d0770,59b10effb2e1392f48d78b7203d45fd8,143cdc70d13d4e6d3cf3e75241e44c83]
+POC   40 LId: 3 TId: 1 ( B-SLICE     RASL_R, nQP 37 QP 37 )     124360 bits [Y 35.6532 dB    U 41.8246 dB    V 40.7468 dB] [ET    56 ] [L0 32 24 ] [L1 48c 32 ] [MD5:508669ee4a37db373d873367a358cee6,3f22fef8d7534721a3bf7b86c0e626f9,ebcae06edacbfae4121dc38aded72387]
+POC   40 LId: 4 TId: 1 ( B-SLICE     RASL_R, nQP 32 QP 32 )     144944 bits [Y 38.7547 dB    U 42.6745 dB    V 41.7102 dB] [ET    64 ] [L0 32 24 40(3, {1.00, 1.00}x) ] [L1 48 32 40(3, {1.00, 1.00}x)c ] [MD5:8bb881248454dff96f1bae69a74f6b9b,bf9eb2af74d6fa669bb4c81923a41082,8e72e4c10541faed9f801f88b7163c18]
+POC   36 LId: 0 TId: 2 ( B-SLICE     RASL_N, nQP 51 QP 51 )       1608 bits [Y 27.2648 dB    U 38.5205 dB    V 36.7446 dB] [ET    38 ] [L0 32 24 ] [L1 40c 48 ] [MD5:6e08bdf2e94f2db4d827af81ba4e082d,69855e82e0961d1a147550418e3091b8,f203dbe5eac5050e31adb9c29e8eaa08]
+POC   36 LId: 1 TId: 2 ( B-SLICE     RASL_N, nQP 48 QP 48 )       6232 bits [Y 29.1150 dB    U 39.7875 dB    V 38.3087 dB] [ET    42 ] [L0 32 24 ] [L1 40c 48 ] [MD5:3a28e9d8281bc51467c9cc159afcacc1,7b96946fc306a469e5426e22d2089bb1,8cdc5e4f62e75014cff4418bd4875672]
+POC   36 LId: 2 TId: 2 ( B-SLICE     RASL_N, nQP 43 QP 43 )      21952 bits [Y 31.4250 dB    U 41.0079 dB    V 39.6122 dB] [ET    48 ] [L0 32 24 ] [L1 40c 48 ] [MD5:30d87cb806eb962909026b5ea292bd98,5a1967c2a6ba826bb39b4ef061618c89,ba2b73edf8b82f162bc5abfdc37834c2]
+POC   36 LId: 3 TId: 2 ( B-SLICE     RASL_N, nQP 38 QP 38 )      60152 bits [Y 34.1035 dB    U 41.7182 dB    V 40.4685 dB] [ET    54 ] [L0 32 24 ] [L1 40c 48 ] [MD5:8cde4143e126757a722610a452686a95,25973392166be7f229faad4bb795b3a6,6c7302ef54076ee68493070152a2d196]
+POC   36 LId: 4 TId: 2 ( B-SLICE     RASL_N, nQP 33 QP 33 )      95240 bits [Y 37.1342 dB    U 42.2873 dB    V 41.0765 dB] [ET    63 ] [L0 32 24 36(3, {1.00, 1.00}x) ] [L1 40 48 36(3, {1.00, 1.00}x)c ] [MD5:fb5817e7621d1aa23b2b6c3a66119653,215373e49322b4afd98ffcb60d3f7e7d,37c9d36058911c789912b02bd920273c]
+POC   34 LId: 0 TId: 3 ( B-SLICE     RASL_N, nQP 51 QP 51 )        576 bits [Y 27.4888 dB    U 38.4715 dB    V 36.7811 dB] [ET    38 ] [L0 32 24 ] [L1 36c 40 ] [MD5:9046e5efe4871ed39e1bfbdc7d73b683,5dc787df9193c50eae21e1e42de52eb5,a85195284bf5f074c8082541759e57bb]
+POC   34 LId: 1 TId: 3 ( B-SLICE     RASL_N, nQP 49 QP 49 )       1992 bits [Y 29.1955 dB    U 39.6940 dB    V 38.2649 dB] [ET    40 ] [L0 32 24 ] [L1 36c 40 ] [MD5:a5197255e3b0594783f9ba355ced2747,c382ef331dc41be61eea53acb6406ffa,9ae8526c48cc87dc07b1591b4848ade9]
+POC   34 LId: 2 TId: 3 ( B-SLICE     RASL_N, nQP 44 QP 44 )       7696 bits [Y 31.3466 dB    U 41.0517 dB    V 39.6586 dB] [ET    44 ] [L0 32 24 ] [L1 36c 40 ] [MD5:fd028aa3a45b38653103248a4beb26af,41214d013dbabb793e474236bf0beb91,7be2203b50a0761f8c778b1068694d06]
+POC   34 LId: 3 TId: 3 ( B-SLICE     RASL_N, nQP 39 QP 39 )      26712 bits [Y 33.9056 dB    U 41.7475 dB    V 40.5186 dB] [ET    49 ] [L0 32 24 ] [L1 36c 40 ] [MD5:b7c8243d58e3511bdd2ef1b6b5c40e0a,cfe792b8d60cc3643df214a213d7407c,5b266a867e37da81e3be1f81861a8022]
+POC   34 LId: 4 TId: 3 ( B-SLICE     RASL_N, nQP 34 QP 34 )      59584 bits [Y 36.6871 dB    U 42.3901 dB    V 41.2061 dB] [ET    57 ] [L0 32 24 34(3, {1.00, 1.00}x) ] [L1 36 40 34(3, {1.00, 1.00}x)c ] [MD5:9ab518949919d7be63e73083f5fbe0f5,2d40d58c4c73c0b4197bfe6e0381b477,5490d6ff8961ce0ff8647f20ceaed720]
+POC   33 LId: 0 TId: 4 ( B-SLICE     RASL_N, nQP 51 QP 51 )        320 bits [Y 27.7303 dB    U 38.4153 dB    V 36.7320 dB] [ET    33 ] [L0 32 34 ] [L1 34c 36 ] [MD5:749fb40a5554fe64fd9f3eb73621ccd3,e7b78534fcdf12226fd4ccaf9c013b61,d34671f59b2027b421710b30af14a73f]
+POC   33 LId: 1 TId: 4 ( B-SLICE     RASL_N, nQP 50 QP 50 )        984 bits [Y 29.6357 dB    U 39.6226 dB    V 38.2690 dB] [ET    34 ] [L0 32 34 ] [L1 34c 36 ] [MD5:564bd0b84a9dee9d23793d19a7fe2e9c,8446bad0bfb199f8ef49b80a9f30caa7,5daea97448d8a87849f8d075eca4c8c4]
+POC   33 LId: 2 TId: 4 ( B-SLICE     RASL_N, nQP 45 QP 45 )       2560 bits [Y 31.7641 dB    U 41.0241 dB    V 39.7206 dB] [ET    37 ] [L0 32 34 ] [L1 34c 36 ] [MD5:331ea2167d6a8dc05881156927a9b293,c729030ed8364969ec3d0fa31f771bbb,6a1c86ed1cea0d4ff9a50e73d2175ef8]
+POC   33 LId: 3 TId: 4 ( B-SLICE     RASL_N, nQP 40 QP 40 )       9824 bits [Y 34.1504 dB    U 41.7410 dB    V 40.5675 dB] [ET    38 ] [L0 32 34 ] [L1 34c 36 ] [MD5:398f1e48389ae6263c631e7e965bde3a,ea4f35187d00c5c307782c5d62b3bb0d,5e662a07b897729e9e25202ee23f422e]
+POC   33 LId: 4 TId: 4 ( B-SLICE     RASL_N, nQP 35 QP 35 )      25056 bits [Y 36.5511 dB    U 42.5989 dB    V 41.5188 dB] [ET    46 ] [L0 32 34 33(3, {1.00, 1.00}x) ] [L1 34 36 33(3, {1.00, 1.00}x)c ] [MD5:687d0de719b4cac46d620f366708c7df,6ce6082790554e946dd38f9036a5541d,0113d08b5d3525de8232b9bf35c708f0]
+POC   35 LId: 0 TId: 4 ( B-SLICE     RASL_N, nQP 51 QP 51 )        232 bits [Y 27.2492 dB    U 38.4986 dB    V 36.7395 dB] [ET    37 ] [L0 34c 32 ] [L1 36 40 ] [MD5:34366e0032beb571430a41302ff7844a,314c5f906461a339a7eef3b30813c538,255d67434d6eb68a50b853ccb38aef54]
+POC   35 LId: 1 TId: 4 ( B-SLICE     RASL_N, nQP 50 QP 50 )       1000 bits [Y 29.0577 dB    U 39.7691 dB    V 38.3036 dB] [ET    39 ] [L0 34c 32 ] [L1 36 40 ] [MD5:74b87230c3710ead0cd9114c8822a675,e34aaec1710ef20a62272abcc491f3e6,06dc51463d350222f66f21c13d8cf22f]
+POC   35 LId: 2 TId: 4 ( B-SLICE     RASL_N, nQP 45 QP 45 )       2696 bits [Y 31.1010 dB    U 41.0324 dB    V 39.6160 dB] [ET    41 ] [L0 34c 32 ] [L1 36 40 ] [MD5:a7ac8333bcac09f31660d00b6bba8429,ef499998e8afd15968c7c3259dbb5f88,e051253d8edd67f1bbb92761b09b01bc]
+POC   35 LId: 3 TId: 4 ( B-SLICE     RASL_N, nQP 40 QP 40 )       8928 bits [Y 33.5141 dB    U 41.7747 dB    V 40.4903 dB] [ET    45 ] [L0 34c 32 ] [L1 36 40 ] [MD5:09966f78876c3d455a6be131a7908d73,f12a73ec0e228eb0eee8060c5f3a58e5,22c6b42220d6b59ef148aa490f9d07bf]
+POC   35 LId: 4 TId: 4 ( B-SLICE     RASL_N, nQP 35 QP 35 )      25560 bits [Y 36.1135 dB    U 42.3925 dB    V 41.1585 dB] [ET    51 ] [L0 34 32 35(3, {1.00, 1.00}x)c ] [L1 36 40 35(3, {1.00, 1.00}x) ] [MD5:eea36b0026b889b579fc9906d03b4bfe,4684ae70025f226ff38660bf146a9bb3,514bdbdb142fb0e4f0e13bb30d4b88d5]
+POC   38 LId: 0 TId: 3 ( B-SLICE     RASL_N, nQP 51 QP 51 )        536 bits [Y 27.4376 dB    U 38.5906 dB    V 36.8336 dB] [ET    37 ] [L0 36c 32 ] [L1 40 48 ] [MD5:0b613c0c9234335c30e791a437c4fbd0,16a84521430709b192c5bbe812c9919d,fdf17204ffadce20257b8777f7e236b4]
+POC   38 LId: 1 TId: 3 ( B-SLICE     RASL_N, nQP 49 QP 49 )       2048 bits [Y 29.1755 dB    U 39.8577 dB    V 38.3689 dB] [ET    39 ] [L0 36c 32 ] [L1 40 48 ] [MD5:b9a31b682a09a689bff74d1a1bc51e49,770c70c1e9437d758d687e3ce6c46a6a,dc3d869f8511ce92c0e8177dcab70d3f]
+POC   38 LId: 2 TId: 3 ( B-SLICE     RASL_N, nQP 44 QP 44 )       7336 bits [Y 31.2812 dB    U 41.0644 dB    V 39.6122 dB] [ET    42 ] [L0 36c 32 ] [L1 40 48 ] [MD5:d54887714e57fa47246bc6bdadcb6971,efaec57dc3f724665f38b993ac768a22,5effd3bdf87b0ddb5092df24f76c2149]
+POC   38 LId: 3 TId: 3 ( B-SLICE     RASL_N, nQP 39 QP 39 )      26008 bits [Y 33.8473 dB    U 41.8329 dB    V 40.5706 dB] [ET    49 ] [L0 36c 32 ] [L1 40 48 ] [MD5:804ee2bed569ce791915858624c7f6f3,7e617c69ec641207c2d8b727befc4129,ff0323547d95eedcea202020bf0d3111]
+POC   38 LId: 4 TId: 3 ( B-SLICE     RASL_N, nQP 34 QP 34 )      59464 bits [Y 36.7388 dB    U 42.4179 dB    V 41.2026 dB] [ET    58 ] [L0 36 32 38(3, {1.00, 1.00}x)c ] [L1 40 48 38(3, {1.00, 1.00}x) ] [MD5:a44c591b617ce3d5a714f5a8ce1f2f5f,3ad72f55dd54a524995f136e13ca923e,e78b6ff42c61396b17a9144b645c8806]
+POC   37 LId: 0 TId: 4 ( B-SLICE     RASL_N, nQP 51 QP 51 )        224 bits [Y 27.2321 dB    U 38.5720 dB    V 36.7850 dB] [ET    37 ] [L0 36 32 ] [L1 38c 40 ] [MD5:4054ac32e2194547032aa3b22fd435f0,e86441a80eb01cdc488ca8128b4a1380,099cb6a4cdc11f372f7c49b50dd451f8]
+POC   37 LId: 1 TId: 4 ( B-SLICE     RASL_N, nQP 50 QP 50 )        856 bits [Y 29.0322 dB    U 39.8361 dB    V 38.3634 dB] [ET    38 ] [L0 36 32 ] [L1 38c 40 ] [MD5:d173e2552a486bf25149fb86f48b861d,a215a584a9f7378115917ea7770352eb,7c6e19445ef469193efb717d4ffec3fd]
+POC   37 LId: 2 TId: 4 ( B-SLICE     RASL_N, nQP 45 QP 45 )       2600 bits [Y 31.0822 dB    U 41.0555 dB    V 39.6348 dB] [ET    43 ] [L0 36 32 ] [L1 38c 40 ] [MD5:a64489f539686b974459878eeec1b9b4,0f26eac16129cbcab8d18a819219ff4a,b777f976434ce8aeeafa9ede250fe531]
+POC   37 LId: 3 TId: 4 ( B-SLICE     RASL_N, nQP 40 QP 40 )       9400 bits [Y 33.4941 dB    U 41.8003 dB    V 40.5342 dB] [ET    43 ] [L0 36 32 ] [L1 38c 40 ] [MD5:1a12d620616de6a94245868b3e31bbee,755867effe9de0eabe4c362d922245e9,123e41e4c3e5819561a5fe743f3305d3]
+POC   37 LId: 4 TId: 4 ( B-SLICE     RASL_N, nQP 35 QP 35 )      26080 bits [Y 36.1416 dB    U 42.3926 dB    V 41.1739 dB] [ET    49 ] [L0 36 32 37(3, {1.00, 1.00}x) ] [L1 38 40 37(3, {1.00, 1.00}x)c ] [MD5:8b1685422fe60aded1eb53ae6cb59cbf,1e0bfb265cc4dd642769b31c6b90bbb2,f9cbf67ef3a1713857a82eefb2589628]
+POC   39 LId: 0 TId: 4 ( B-SLICE     RASL_N, nQP 51 QP 51 )        224 bits [Y 27.5874 dB    U 38.5682 dB    V 36.8856 dB] [ET    36 ] [L0 38c 36 ] [L1 40 48 ] [MD5:ddad1da4bd3cb46755185330969792f0,ec0e296c399daf828b4a1dada9f8705f,341d8a276f735556c1b8891cf5a9777d]
+POC   39 LId: 1 TId: 4 ( B-SLICE     RASL_N, nQP 50 QP 50 )       1016 bits [Y 29.5156 dB    U 39.8256 dB    V 38.4107 dB] [ET    38 ] [L0 38c 36 ] [L1 40 48 ] [MD5:f5967c747bc248ae90d318ddea6b58cd,84f89fd624beafbddd4609e71b252ed0,018bb169d0802ac0deacae227f6d5794]
+POC   39 LId: 2 TId: 4 ( B-SLICE     RASL_N, nQP 45 QP 45 )       2856 bits [Y 31.6226 dB    U 41.0405 dB    V 39.6392 dB] [ET    41 ] [L0 38c 36 ] [L1 40 48 ] [MD5:ba0aea89e85d4ee6247699551bdaddaa,fbab52ad0b9fc72d5c8e75221f2f4d8c,a88bab2f5705378b706cdbe0ccc6ad27]
+POC   39 LId: 3 TId: 4 ( B-SLICE     RASL_N, nQP 40 QP 40 )       8936 bits [Y 33.9658 dB    U 41.8384 dB    V 40.6398 dB] [ET    42 ] [L0 38c 36 ] [L1 40 48 ] [MD5:e3fd8c7dce72ab9e1cddb3714bf66cda,f86a472f386d41a1275d3ab596a70bde,913648c3f40f27c92fe00d50655ecd12]
+POC   39 LId: 4 TId: 4 ( B-SLICE     RASL_N, nQP 35 QP 35 )      24272 bits [Y 36.5243 dB    U 42.5742 dB    V 41.4334 dB] [ET    50 ] [L0 38 36 39(3, {1.00, 1.00}x)c ] [L1 40 48 39(3, {1.00, 1.00}x) ] [MD5:2c4964ded3423c0bb7c9f30ce2dbd572,51a2c5f6431deb18770a3e508899c5b7,914a5fb64873c5aec5ddb48c06c3a645]
+POC   44 LId: 0 TId: 2 ( B-SLICE     RASL_N, nQP 51 QP 51 )       1824 bits [Y 27.5963 dB    U 38.6254 dB    V 36.9781 dB] [ET    35 ] [L0 40c 32 ] [L1 48 40 ] [MD5:7b1be9024c76b5af6e51895d48f0086d,6e92db61bb08b0756784c4ed97dfcd05,f77aa8a3f946873bcbaa669f14c4fa94]
+POC   44 LId: 1 TId: 2 ( B-SLICE     RASL_N, nQP 48 QP 48 )       6208 bits [Y 29.3474 dB    U 39.9612 dB    V 38.5132 dB] [ET    38 ] [L0 40c 32 ] [L1 48 40 ] [MD5:45b616fff5b5aa7f008b0964219de39a,174456379dcb10b404903148595e0ea5,02bd6eb19b77b5515e43d71b47764487]
+POC   44 LId: 2 TId: 2 ( B-SLICE     RASL_N, nQP 43 QP 43 )      21128 bits [Y 31.6019 dB    U 41.1402 dB    V 39.8223 dB] [ET    44 ] [L0 40c 32 ] [L1 48 40 ] [MD5:ca4cb9718dba3caef3f582fac11ea69c,bd1a31ea632d75c450066a90294d81a4,246e03858e6966ad19ba050f3854f0a5]
+POC   44 LId: 3 TId: 2 ( B-SLICE     RASL_N, nQP 38 QP 38 )      59040 bits [Y 34.3373 dB    U 41.8352 dB    V 40.6514 dB] [ET    51 ] [L0 40c 32 ] [L1 48 40 ] [MD5:d7f74a413d3878b2f611ab195ab881cd,f20f755b55c24b692276136ab8b45f36,44382a1f80d88431571d6e0fbe45607e]
+POC   44 LId: 4 TId: 2 ( B-SLICE     RASL_N, nQP 33 QP 33 )      91232 bits [Y 37.3388 dB    U 42.5211 dB    V 41.4232 dB] [ET    57 ] [L0 40 32 44(3, {1.00, 1.00}x)c ] [L1 48 40 44(3, {1.00, 1.00}x) ] [MD5:70bb79476656eb7ec976e42b0cf4b235,61f1750af3bdab93b7d6702e2f89f9df,831774210934b2456f6f167b40b44aee]
+POC   42 LId: 0 TId: 3 ( B-SLICE     RASL_N, nQP 51 QP 51 )        576 bits [Y 27.5549 dB    U 38.6203 dB    V 36.9753 dB] [ET    37 ] [L0 40 32 ] [L1 44c 48 ] [MD5:65d3814cb65a4cd2bb84d4b4a66123a9,e697ba43e2431a055bd85fa899e7b070,e7fe1faf013cdee75f737ef7fa31336a]
+POC   42 LId: 1 TId: 3 ( B-SLICE     RASL_N, nQP 49 QP 49 )       1792 bits [Y 29.2921 dB    U 39.9393 dB    V 38.4993 dB] [ET    40 ] [L0 40 32 ] [L1 44c 48 ] [MD5:f8c81f4a5dfe8143c7c07dd6b2839242,65c41b3aad4c7cd763357ce788168473,d12d4ffb898a17f1eca54e7636406503]
+POC   42 LId: 2 TId: 3 ( B-SLICE     RASL_N, nQP 44 QP 44 )       7824 bits [Y 31.4235 dB    U 41.1163 dB    V 39.7327 dB] [ET    44 ] [L0 40 32 ] [L1 44c 48 ] [MD5:ebd121209b1d6136c08607e50e4a3f04,3d05c959b807a95e4d8d6e18e346c317,85764eb3153dcbc8c4ad262286cf063a]
+POC   42 LId: 3 TId: 3 ( B-SLICE     RASL_N, nQP 39 QP 39 )      26888 bits [Y 33.9705 dB    U 41.8913 dB    V 40.7315 dB] [ET    46 ] [L0 40 32 ] [L1 44c 48 ] [MD5:48585e3246133df16f41f8ea42f25c0a,480ab4dea7a19e94c06b53be6c4a9416,d92f61d4824bef4bad71a0c7c68d2edb]
+POC   42 LId: 4 TId: 3 ( B-SLICE     RASL_N, nQP 34 QP 34 )      58624 bits [Y 36.8034 dB    U 42.4800 dB    V 41.3410 dB] [ET    56 ] [L0 40 32 42(3, {1.00, 1.00}x) ] [L1 44 48 42(3, {1.00, 1.00}x)c ] [MD5:9d76c328142a3c640718f9c0c85b885e,59fc22388da103d9830657423e2939ad,c20acab04b2384101bbf4ef6c4dd1dfe]
+POC   41 LId: 0 TId: 4 ( B-SLICE     RASL_N, nQP 51 QP 51 )        240 bits [Y 27.6625 dB    U 38.5826 dB    V 36.9508 dB] [ET    37 ] [L0 40 32 ] [L1 42c 44 ] [MD5:ee5126e036afe3b5a09c13938bd0f139,28b8e7a9196df8858b862e86c58ee99e,1cdc1597139d32f31a50ca1c2b995a3b]
+POC   41 LId: 1 TId: 4 ( B-SLICE     RASL_N, nQP 50 QP 50 )        912 bits [Y 29.5605 dB    U 39.9044 dB    V 38.4934 dB] [ET    38 ] [L0 40 32 ] [L1 42c 44 ] [MD5:30a28d43773597539484d3091aa21221,2c59fd6e40134de33010fd85cd76ba35,76ac92a0c45577dfcd3f0a128309bb04]
+POC   41 LId: 2 TId: 4 ( B-SLICE     RASL_N, nQP 45 QP 45 )       2816 bits [Y 31.6661 dB    U 41.0651 dB    V 39.6923 dB] [ET    39 ] [L0 40 32 ] [L1 42c 44 ] [MD5:1e0c83ec396db8311558a7cabe11c9f7,7d6f90ab174c5125251f7cb3575b4970,138a7bd4ca0b15b070ce209c48bbeccf]
+POC   41 LId: 3 TId: 4 ( B-SLICE     RASL_N, nQP 40 QP 40 )       9888 bits [Y 34.0472 dB    U 41.8479 dB    V 40.7080 dB] [ET    41 ] [L0 40 32 ] [L1 42c 44 ] [MD5:bbace24cd8e13fbac21254696239b28b,05db970b473f3886a40ea931b3c2d123,01448d1ce3f3934226ff8f2db70fa0fd]
+POC   41 LId: 4 TId: 4 ( B-SLICE     RASL_N, nQP 35 QP 35 )      24680 bits [Y 36.5385 dB    U 42.5815 dB    V 41.4831 dB] [ET    48 ] [L0 40 32 41(3, {1.00, 1.00}x) ] [L1 42 44 41(3, {1.00, 1.00}x)c ] [MD5:5092c8fe3dfb5c74bce91d571c114bd3,9469ef43d638160dacc6a4a3de8affea,925be46cd265dcb849ba66e185582fc0]
+POC   43 LId: 0 TId: 4 ( B-SLICE     RASL_N, nQP 51 QP 51 )        256 bits [Y 27.4891 dB    U 38.6380 dB    V 36.9645 dB] [ET    35 ] [L0 42c 40 ] [L1 44 48 ] [MD5:eb3d018e49b72df61bcd445c0587c54a,f717a2e0c1749a5cb2bc793c457d0184,81515e5a97b0c32600db19bd44e1d534]
+POC   43 LId: 1 TId: 4 ( B-SLICE     RASL_N, nQP 50 QP 50 )       1000 bits [Y 29.2296 dB    U 39.9968 dB    V 38.5726 dB] [ET    39 ] [L0 42c 40 ] [L1 44 48 ] [MD5:0f77a8b67b8169d2f090b76fdb8aeba6,f2faacaa4d63bf04078162577e6e1980,aa3a055222fd07ae5518b342090c1f72]
+POC   43 LId: 2 TId: 4 ( B-SLICE     RASL_N, nQP 45 QP 45 )       2936 bits [Y 31.2533 dB    U 41.1589 dB    V 39.7624 dB] [ET    39 ] [L0 42c 40 ] [L1 44 48 ] [MD5:9569c1e8d9a652f22b1c9f07224ea5df,24de66d3c3e59fe60d5509c477ab02f4,9c049b0ff0095a7c3b43dec9ac159a9d]
+POC   43 LId: 3 TId: 4 ( B-SLICE     RASL_N, nQP 40 QP 40 )       9224 bits [Y 33.6338 dB    U 41.9046 dB    V 40.6928 dB] [ET    41 ] [L0 42c 40 ] [L1 44 48 ] [MD5:09f4fad2b8b1f7d75b8368c272758980,9fc64b94dfe8b8645cfb316bf584236f,27c521227f07ee711aba9af468fff41e]
+POC   43 LId: 4 TId: 4 ( B-SLICE     RASL_N, nQP 35 QP 35 )      25600 bits [Y 36.2244 dB    U 42.5252 dB    V 41.3653 dB] [ET    48 ] [L0 42 40 43(3, {1.00, 1.00}x)c ] [L1 44 48 43(3, {1.00, 1.00}x) ] [MD5:cc36536a546bd1c9847ab3641b96fdfa,3cf64a937d55dead3f7bf7d03e8e1417,ad097b3a527dc0bc45d96f95d817bf2e]
+POC   46 LId: 0 TId: 3 ( B-SLICE     RASL_N, nQP 51 QP 51 )        728 bits [Y 28.0657 dB    U 38.5938 dB    V 37.0593 dB] [ET    34 ] [L0 44c 40 ] [L1 48 44 ] [MD5:bcccebaa1ade2d625807096029b25d67,b100e4fb2053ba83474951729814b050,217007935e95a37c8f8f72793e07fa33]
+POC   46 LId: 1 TId: 3 ( B-SLICE     RASL_N, nQP 49 QP 49 )       2120 bits [Y 29.8521 dB    U 40.0171 dB    V 38.6655 dB] [ET    35 ] [L0 44c 40 ] [L1 48 44 ] [MD5:e29d7927f9d481c65fe0c0407caac653,4f6f59c4348267b019f1f55662348a82,a8a324d47680082f720ff8f08bbd7f04]
+POC   46 LId: 2 TId: 3 ( B-SLICE     RASL_N, nQP 44 QP 44 )       7560 bits [Y 31.8684 dB    U 41.2333 dB    V 39.9747 dB] [ET    37 ] [L0 44c 40 ] [L1 48 44 ] [MD5:46c0d6c5b307dc8debf1a73c9e1af57d,298ddd7335f1aacbd91acfadbb146ab1,a4a628bfdb19386097a0275b78663cd0]
+POC   46 LId: 3 TId: 3 ( B-SLICE     RASL_N, nQP 39 QP 39 )      25768 bits [Y 34.3217 dB    U 42.0936 dB    V 40.9571 dB] [ET    40 ] [L0 44c 40 ] [L1 48 44 ] [MD5:dd7b51bc3231afe5db81ad62bc1234e9,77e3b459a5560905d7a8fd0b2205a029,001ae62128e406650cfe9f1124d8776f]
+POC   46 LId: 4 TId: 3 ( B-SLICE     RASL_N, nQP 34 QP 34 )      56424 bits [Y 37.0765 dB    U 42.8506 dB    V 41.7711 dB] [ET    48 ] [L0 44 40 46(3, {1.00, 1.00}x)c ] [L1 48 44 46(3, {1.00, 1.00}x) ] [MD5:02227c332daec20c4c87410d7a6548a0,b3ee3427acde680e2161ccd155c641c1,f8120e9a152aff4ee52b08e1a6630388]
+POC   45 LId: 0 TId: 4 ( B-SLICE     RASL_N, nQP 51 QP 51 )        304 bits [Y 27.7346 dB    U 38.6183 dB    V 37.0148 dB] [ET    37 ] [L0 44 40 ] [L1 46c 48 ] [MD5:251ce9d7d542346b36e6169fea9c941a,b0137b93eae7f821d03e05a1c398b79f,f2e6a1aa9e2c0f9dcdbcd72945e53793]
+POC   45 LId: 1 TId: 4 ( B-SLICE     RASL_N, nQP 50 QP 50 )       1000 bits [Y 29.4503 dB    U 40.0204 dB    V 38.5668 dB] [ET    40 ] [L0 44 40 ] [L1 46c 48 ] [MD5:3b80101466397ea391b1b0de504460a1,fb1bf042e7e06ac3abaffe8a2d2ef257,23ded417a6b1de7280fa97d3a1810cc0]
+POC   45 LId: 2 TId: 4 ( B-SLICE     RASL_N, nQP 45 QP 45 )       3048 bits [Y 31.4473 dB    U 41.1947 dB    V 39.8555 dB] [ET    41 ] [L0 44 40 ] [L1 46c 48 ] [MD5:4cfccd1f4adb08eff71ce68e59bbedaf,1cfd85d5be77201e6a40b12cb5349564,ca0d5ec647c67a829ba855e41d3ecfe3]
+POC   45 LId: 3 TId: 4 ( B-SLICE     RASL_N, nQP 40 QP 40 )       9480 bits [Y 33.7860 dB    U 41.9963 dB    V 40.8373 dB] [ET    41 ] [L0 44 40 ] [L1 46c 48 ] [MD5:4e803ee57289d75657bbe1a0c8be3792,1f981a718e8d954f067104c27ef4038d,f1f12f34418d34e4cf3964d27db0f120]
+POC   45 LId: 4 TId: 4 ( B-SLICE     RASL_N, nQP 35 QP 35 )      26256 bits [Y 36.3815 dB    U 42.7389 dB    V 41.6145 dB] [ET    49 ] [L0 44 40 45(3, {1.00, 1.00}x) ] [L1 46 48 45(3, {1.00, 1.00}x)c ] [MD5:605350eeb7fee5a4f920416e87b8a735,d8b3206ca2d6468c30228925ae82ebac,e37dd8aee5d61c153fc3b4590e826222]
+POC   47 LId: 0 TId: 4 ( B-SLICE     RASL_N, nQP 51 QP 51 )        352 bits [Y 28.5636 dB    U 38.5703 dB    V 37.1168 dB] [ET    34 ] [L0 46c 44 ] [L1 48 46 ] [MD5:219fa6d8105fafe3133cc877f45b2145,514cd46960a0df3ad2d8ed8a0513bf4b,056f2bc4f06609eac6b2c8ea687bd39a]
+POC   47 LId: 1 TId: 4 ( B-SLICE     RASL_N, nQP 50 QP 50 )       1168 bits [Y 30.5955 dB    U 40.0352 dB    V 38.8594 dB] [ET    35 ] [L0 46c 44 ] [L1 48 46 ] [MD5:906766ef295900ab1c7e6f1741c631ba,04270ac8e54fe3c72f9d7d6e7da8058f,a04fd51c47afe47b2fda68196885dd88]
+POC   47 LId: 2 TId: 4 ( B-SLICE     RASL_N, nQP 45 QP 45 )       2840 bits [Y 32.5409 dB    U 41.2716 dB    V 40.0988 dB] [ET    36 ] [L0 46c 44 ] [L1 48 46 ] [MD5:9643d92d2a7f046e763e9687f7989fb1,a3b6f5a9abfb5188847c93659397ab92,6dbe5f7babeefb69bc2449ad621542b6]
+POC   47 LId: 3 TId: 4 ( B-SLICE     RASL_N, nQP 40 QP 40 )       9144 bits [Y 34.7502 dB    U 42.2101 dB    V 41.1294 dB] [ET    38 ] [L0 46c 44 ] [L1 48 46 ] [MD5:1e66659f14d53a235a28a74f3f2d4ade,4918cc05c3489571304936b0377a535e,cf3c8d5ce8fb3be85a99d45d05eaff13]
+POC   47 LId: 4 TId: 4 ( B-SLICE     RASL_N, nQP 35 QP 35 )      24048 bits [Y 37.0581 dB    U 43.2438 dB    V 42.1853 dB] [ET    45 ] [L0 46 44 47(3, {1.00, 1.00}x)c ] [L1 48 46 47(3, {1.00, 1.00}x) ] [MD5:052851c6e0bd89eb911dc15b58ffe10c,8f5c72ba81f2001cbdf5d9af538b2001,f990c0fed439d0072526d083c8778022]
+POC   56 LId: 0 TId: 1 ( B-SLICE      TSA_R, nQP 51 QP 51 )       9040 bits [Y 27.7999 dB    U 38.1784 dB    V 36.3688 dB] [ET    23 ] [L0 48 ] [L1 48c ] [MD5:a24c2a9ee1c00bc7a4c6916d8033aafb,2806835d9fbebe51f691f0a23dce28ed,1dc7a05358d205c170d940d0fa4db9c0]
+POC   56 LId: 1 TId: 1 ( B-SLICE      TSA_R, nQP 47 QP 47 )      23960 bits [Y 29.8989 dB    U 39.5039 dB    V 38.1602 dB] [ET    29 ] [L0 48 ] [L1 48c ] [MD5:39810d410a6da4897d18ef18bd1022b7,47f8d24ef6459758cdab33fd3549ca40,4cb0271a514827ded4d60c5ec2439af1]
+POC   56 LId: 2 TId: 1 ( B-SLICE      TSA_R, nQP 42 QP 42 )      60384 bits [Y 32.5621 dB    U 40.6743 dB    V 39.4234 dB] [ET    32 ] [L0 48 ] [L1 48c ] [MD5:370c7f72f56951fb1ca9a153392aedff,aa6e67599e45ed7d3642b2a47b710b5f,28df0a678edfe6a882e56cb385b5ee3c]
+POC   56 LId: 3 TId: 1 ( B-SLICE      TSA_R, nQP 37 QP 37 )     132080 bits [Y 35.5174 dB    U 41.6289 dB    V 40.5027 dB] [ET    40 ] [L0 48 ] [L1 48c ] [MD5:96a23a7a92dd113add552f7e98f4dea9,86708d0a9636340512619c9bc7a29cd3,095492ed749cb5501f93e41245ed5617]
+POC   56 LId: 4 TId: 1 ( B-SLICE      TSA_R, nQP 32 QP 32 )     152320 bits [Y 38.6527 dB    U 42.5253 dB    V 41.5664 dB] [ET    48 ] [L0 48 56(3, {1.00, 1.00}x) ] [L1 48 56(3, {1.00, 1.00}x)c ] [MD5:619c7bb19e963a0a1d1e1aeb8828efcd,d4353fe6bb6bc1dadb39223ccbef4bb3,b033283cdfa37df90cc6d4cb62e73091]
+POC   52 LId: 0 TId: 2 ( B-SLICE      TSA_N, nQP 51 QP 51 )       1448 bits [Y 27.5129 dB    U 38.3937 dB    V 36.7096 dB] [ET    31 ] [L0 48 56 ] [L1 56c 48 ] [MD5:7839ce9e3e0937e01620c535e22a81cb,ec421de8d519f201c0b71c0c3c182011,398d32e956d223d5bcd49a46bac13f99]
+POC   52 LId: 1 TId: 2 ( B-SLICE      TSA_N, nQP 48 QP 48 )       5688 bits [Y 29.2616 dB    U 39.7114 dB    V 38.2841 dB] [ET    34 ] [L0 48 56 ] [L1 56c 48 ] [MD5:5e580d9ff9c884b097096d0c87c9bd6f,34587f14518080f9655bda83525c53e3,bd2b0759394352d32208316555dd5e5f]
+POC   52 LId: 2 TId: 2 ( B-SLICE      TSA_N, nQP 43 QP 43 )      21856 bits [Y 31.6165 dB    U 40.9153 dB    V 39.6070 dB] [ET    38 ] [L0 48 56 ] [L1 56c 48 ] [MD5:f3b0c2d16fa8c179830dd1e05ee6aac5,8977ddd8053388ab955b0bd98552aab1,0b1a41068ff8476ca57c9b26297acfaf]
+POC   52 LId: 3 TId: 2 ( B-SLICE      TSA_N, nQP 38 QP 38 )      57776 bits [Y 34.2420 dB    U 41.7133 dB    V 40.4715 dB] [ET    42 ] [L0 48 56 ] [L1 56c 48 ] [MD5:0c8d4daeaf8b9b64c897571cc92384bc,6a5ae6788f50f86a2ba8f442bd90570c,a4f1a2909e0782487198a2ffaada2844]
+POC   52 LId: 4 TId: 2 ( B-SLICE      TSA_N, nQP 33 QP 33 )      90200 bits [Y 37.2350 dB    U 42.3909 dB    V 41.2700 dB] [ET    48 ] [L0 48 56 52(3, {1.00, 1.00}x) ] [L1 56 48 52(3, {1.00, 1.00}x)c ] [MD5:e8ae0de1e41d92c8146b3733f324cc15,13bb7ee8e11104a7b07304a8630ca684,be8ef074e8b148041cbf1d3089c24ed0]
+POC   50 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        792 bits [Y 28.0097 dB    U 38.4337 dB    V 36.9704 dB] [ET    34 ] [L0 48 52 ] [L1 52c 56 ] [MD5:97d7ba499df7e073af801d956134fc59,61f5d9976b55b9ce84c1f717fae64154,2e34c75fe95766b798db75d5656704c8]
+POC   50 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       2032 bits [Y 29.7033 dB    U 39.8880 dB    V 38.6362 dB] [ET    37 ] [L0 48 52 ] [L1 52c 56 ] [MD5:6621b144720115c40da485a506ff9a04,e897b35bf6e68154efcb5d3254fc8b78,ec1f50179e674cab43510e94e1b3a703]
+POC   50 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       7152 bits [Y 31.8218 dB    U 41.1179 dB    V 39.8527 dB] [ET    39 ] [L0 48 52 ] [L1 52c 56 ] [MD5:a21361223b759c8c8d048e1c84d87526,7b33f87aabaaa2dd8c6435ddf439ba67,01a58505a6df60e1264b3461bbf8da34]
+POC   50 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      25704 bits [Y 34.2596 dB    U 42.0478 dB    V 40.8876 dB] [ET    42 ] [L0 48 52 ] [L1 52c 56 ] [MD5:6cd5fda9838ed70dc1c3f78ddccdc9e7,6330f0277434f26bcd876f39f0eb6b8f,b8b762ba39ce8ff59fe240b631105f35]
+POC   50 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      56304 bits [Y 37.0158 dB    U 42.8017 dB    V 41.7011 dB] [ET    49 ] [L0 48 52 50(3, {1.00, 1.00}x) ] [L1 52 56 50(3, {1.00, 1.00}x)c ] [MD5:76e35d42502f7fec28e592673942a0c6,9f552a2723c4a311d07f4ecd91c59eb6,730fa6a145a16046ad99a0609ff67cc7]
+POC   49 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        448 bits [Y 28.5296 dB    U 38.4329 dB    V 37.0923 dB] [ET    34 ] [L0 48 50 ] [L1 50c 52 ] [MD5:75cbcb68219d56c19efe442176f460f5,d9a66fc93ac2d2d65deecef937241a87,c4ef21f2464b5383f181f7254ed815de]
+POC   49 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1144 bits [Y 30.4791 dB    U 39.9376 dB    V 38.7990 dB] [ET    36 ] [L0 48 50 ] [L1 50c 52 ] [MD5:7078c9c545ce2c7a7bc7919396ae7e8e,4d2cd2841a2a289eb0ead2e854b38580,937ecf3d13a0aa0524465ff8e55c7b90]
+POC   49 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       3000 bits [Y 32.5272 dB    U 41.1848 dB    V 40.0714 dB] [ET    36 ] [L0 48 50 ] [L1 50c 52 ] [MD5:e506ad20b6d7a5a1bde5c96fd30ce34d,452bda449e2262f12083fe0461a93160,1ca402c28149b1f7a7f23febd6b01e55]
+POC   49 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       9296 bits [Y 34.7078 dB    U 42.2048 dB    V 41.1007 dB] [ET    37 ] [L0 48 50 ] [L1 50c 52 ] [MD5:403c9aa67edcc967aaaf38e982a26bd5,954a5fc7b1192dc8cd6401b2130f7a39,d5da9a69a4700e3c1281847e409aca77]
+POC   49 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      23864 bits [Y 37.0105 dB    U 43.2150 dB    V 42.1484 dB] [ET    43 ] [L0 48 50 49(3, {1.00, 1.00}x) ] [L1 50 52 49(3, {1.00, 1.00}x)c ] [MD5:c8e767f6026ade3e2b12e7ffb8b54a3e,f61cd74ca2c0fb8e56a8972c23ed64b3,2088ef27f508c3495372a3f91ca1fa97]
+POC   51 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        392 bits [Y 27.6873 dB    U 38.4160 dB    V 36.8617 dB] [ET    39 ] [L0 50c 48 ] [L1 52 56 ] [MD5:e88caf5d3b7dc2f7219ca587bc697d5a,dbdc33c904f6d1690ea11fad2dff072f,1c1dfe54647e3bc79710b707ef131dea]
+POC   51 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1240 bits [Y 29.4013 dB    U 39.8577 dB    V 38.5209 dB] [ET    39 ] [L0 50c 48 ] [L1 52 56 ] [MD5:e31bb56334c565df5680ff95fef50c77,bbbda310edf8fe804b85343509c19837,ddd73fd96e2ecb81122ef013ee95cd91]
+POC   51 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2936 bits [Y 31.4422 dB    U 41.0292 dB    V 39.7505 dB] [ET    40 ] [L0 50c 48 ] [L1 52 56 ] [MD5:3fe806a2b2534b3c4b02a65c3bb3428b,dd0f8330d46f9bff6debde0e3c70dad6,aff8a621cafd23a1017ccf1d81277ba2]
+POC   51 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       9488 bits [Y 33.7773 dB    U 41.9005 dB    V 40.7133 dB] [ET    42 ] [L0 50c 48 ] [L1 52 56 ] [MD5:610c196eb9ea6364be0503b6225b95ef,0f449df5b58d9faa2d21c96e3058f938,7fd942b2f5e68fb1b0ea84dff963c568]
+POC   51 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      24360 bits [Y 36.3259 dB    U 42.5969 dB    V 41.5062 dB] [ET    49 ] [L0 50 48 51(3, {1.00, 1.00}x)c ] [L1 52 56 51(3, {1.00, 1.00}x) ] [MD5:11874977dc1da66e9707eabcbc4640b4,0bffd9c24bd1d9ac910363aecba62963,b771c3ff1d3b609c4e3d50bdfd99780c]
+POC   54 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )        584 bits [Y 27.4703 dB    U 38.3164 dB    V 36.5236 dB] [ET    35 ] [L0 52c 48 ] [L1 56 52 ] [MD5:fb86e2010ce96c16c269032433b7c355,38f23b8fec5cc550f846efc68f1282b0,0e5a089ca6efbb26e3b212e2960f5c96]
+POC   54 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       1944 bits [Y 29.2390 dB    U 39.6876 dB    V 38.2645 dB] [ET    37 ] [L0 52c 48 ] [L1 56 52 ] [MD5:6200f353164752d569c0992446c8484d,0f9c26ef75dbca58c7b81bdab277e5f3,417cefe4adb2177c8a45120b802d1f1c]
+POC   54 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )       6608 bits [Y 31.3219 dB    U 40.8689 dB    V 39.5003 dB] [ET    39 ] [L0 52c 48 ] [L1 56 52 ] [MD5:3f8c7fd3802aa1b9bf09f5431a24cdf1,17027ddb425a418cfdb77ce629f4a1e1,8cdcd1fec11e384542e271331d68f2e8]
+POC   54 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      24496 bits [Y 33.8863 dB    U 41.7203 dB    V 40.4897 dB] [ET    43 ] [L0 52c 48 ] [L1 56 52 ] [MD5:8287cd7a23ec1dac76e2185d9b327a5b,4a71accd2596f66999dd2516409efe1e,bc2eda3e801313909655670bcd6541a7]
+POC   54 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      56096 bits [Y 36.7214 dB    U 42.3881 dB    V 41.2559 dB] [ET    49 ] [L0 52 48 54(3, {1.00, 1.00}x)c ] [L1 56 52 54(3, {1.00, 1.00}x) ] [MD5:c05168f6887fc67414ef4d4ce91f640b,1f4184de75f7890499b408d84aebedc3,a34bb73acea85e33dd950ccc55bbfd39]
+POC   53 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        376 bits [Y 27.4547 dB    U 38.3958 dB    V 36.6788 dB] [ET    38 ] [L0 52 48 ] [L1 54c 56 ] [MD5:12838071f581c901850e5e64e43a4175,adc5612275f6f1a23d36657818cd4c60,2ce257525fe578cd27392a28270d5607]
+POC   53 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1184 bits [Y 29.1970 dB    U 39.7469 dB    V 38.3249 dB] [ET    38 ] [L0 52 48 ] [L1 54c 56 ] [MD5:f370e8065798809f7923c3977cb6fa16,7a7a1730fda045eb7e5630ba0f2842b7,d0408385b23fb016b82039394da18409]
+POC   53 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2600 bits [Y 31.2545 dB    U 40.9335 dB    V 39.5577 dB] [ET    39 ] [L0 52 48 ] [L1 54c 56 ] [MD5:10973ad15434ff7fde293dcfb8064f7f,90afa656de474e2778cf9abe426b124e,e7af4294a12636e521bfd7476191dc9f]
+POC   53 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       9096 bits [Y 33.6130 dB    U 41.7616 dB    V 40.5163 dB] [ET    40 ] [L0 52 48 ] [L1 54c 56 ] [MD5:dd9277eddd473d95697bb0bd7eea1d5d,414bc11592163075dc2222de739f5557,3a70891089bf0c020e3624d183522e8c]
+POC   53 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      24424 bits [Y 36.2505 dB    U 42.4278 dB    V 41.2771 dB] [ET    47 ] [L0 52 48 53(3, {1.00, 1.00}x) ] [L1 54 56 53(3, {1.00, 1.00}x)c ] [MD5:fc6effbc9f5a7ac6910a9c3dea255615,8caff6be8a07c7b6640fc36968431ac6,79714b9379bbe2fcc12a4b0b4c730e3e]
+POC   55 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        360 bits [Y 27.5989 dB    U 38.2584 dB    V 36.4912 dB] [ET    32 ] [L0 54c 52 ] [L1 56 54 ] [MD5:a4193a6b626132d5547d82a00e194918,b82b26ceec8ba168b24cf88d4f0882ee,8f708c15e104e7ea366f74894b10712b]
+POC   55 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1064 bits [Y 29.4723 dB    U 39.6576 dB    V 38.2542 dB] [ET    34 ] [L0 54c 52 ] [L1 56 54 ] [MD5:73147c29bcf9867de6f68b95a60bfbbf,4f1075e84f2f328f16584294945043bf,f9f6c110ff26d66b15056bd51ba09089]
+POC   55 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2696 bits [Y 31.6186 dB    U 40.8043 dB    V 39.4913 dB] [ET    34 ] [L0 54c 52 ] [L1 56 54 ] [MD5:5455b2acf6aa8aa4dd90d851d4652049,e675948b3d92d3c54ad89c8f78193ac5,7f6f6180a77d1041a71a983a4da697a0]
+POC   55 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8224 bits [Y 33.9501 dB    U 41.7068 dB    V 40.5063 dB] [ET    35 ] [L0 54c 52 ] [L1 56 54 ] [MD5:fe7b3cf7a43cc02ef53b2ca5f3d89601,7b7b32928ac7a26a637fc707d69c4012,bb636a02982963d3eb8404be965e9005]
+POC   55 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      23456 bits [Y 36.5508 dB    U 42.5006 dB    V 41.4235 dB] [ET    41 ] [L0 54 52 55(3, {1.00, 1.00}x)c ] [L1 56 54 55(3, {1.00, 1.00}x) ] [MD5:6389b000e2d07d98ca387d70b56d21a0,914cafcb16eefa73274d204b166007ef,7515ccd70875e524a22cff2ad04b023b]
+POC   58 LId: 0 TId: 3 ( B-SLICE      TSA_N, nQP 51 QP 51 )       1024 bits [Y 27.0562 dB    U 38.1005 dB    V 36.1694 dB] [ET    28 ] [L0 56 48 ] [L1 56c 48 ] [MD5:7582b068a99509025116b234e0e38876,c60cbe8e9535913352e38f5b93225bb9,9aeaab3a2d464e58cd45b9206fa699e2]
+POC   58 LId: 1 TId: 3 ( B-SLICE      TSA_N, nQP 49 QP 49 )       3608 bits [Y 28.8148 dB    U 39.3755 dB    V 37.9233 dB] [ET    31 ] [L0 56 48 ] [L1 56c 48 ] [MD5:4ad972fe58f0e16ef62585f40026bfdd,26313f720809f7394938645c2dde572c,93b8a91aadf256b5f19ecd55526a31db]
+POC   58 LId: 2 TId: 3 ( B-SLICE      TSA_N, nQP 44 QP 44 )      12880 bits [Y 31.0166 dB    U 40.5710 dB    V 39.1622 dB] [ET    35 ] [L0 56 48 ] [L1 56c 48 ] [MD5:9dd780e3f87dd120bfd1169e1176bfa3,058c2e1ade7f7e9fc0da0875bf848541,e45ebde1fc5fb5c9f36d5d748c5fb0ec]
+POC   58 LId: 3 TId: 3 ( B-SLICE      TSA_N, nQP 39 QP 39 )      38712 bits [Y 33.6002 dB    U 41.4492 dB    V 40.2027 dB] [ET    39 ] [L0 56 48 ] [L1 56c 48 ] [MD5:2f2171fa1ad7fbb0bc0c86c34934668a,1cd65273a28fb8f2b8e42e85abf96097,356cf2ce90059c4d61ad65d015cb1762]
+POC   58 LId: 4 TId: 3 ( B-SLICE      TSA_N, nQP 34 QP 34 )      70480 bits [Y 36.4941 dB    U 42.0239 dB    V 40.8601 dB] [ET    45 ] [L0 56 48 58(3, {1.00, 1.00}x) ] [L1 56 48 58(3, {1.00, 1.00}x)c ] [MD5:35d0657270c14a481994feefc6bb50ab,d3edf2e94e602c815aa7aadcb5d89361,3031544b9380860388e8f7a6496c4689]
+POC   57 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        280 bits [Y 27.4570 dB    U 38.1737 dB    V 36.3198 dB] [ET    31 ] [L0 56 48 ] [L1 58c 56 ] [MD5:4b1f81b90ddc3e4ee92f105eb8298a7d,8d673668f56a6e4c793a648d216af013,b6cefdfe3897279701ccbca08afb9c38]
+POC   57 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       1000 bits [Y 29.3781 dB    U 39.5121 dB    V 38.1335 dB] [ET    33 ] [L0 56 48 ] [L1 58c 56 ] [MD5:55f47fa2802c05cb9e348747eb885903,208c8aa96efba7045a68ea15fbd34cc0,11731278f652284c3d8d59c0634fab1f]
+POC   57 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       2864 bits [Y 31.5902 dB    U 40.6740 dB    V 39.3407 dB] [ET    35 ] [L0 56 48 ] [L1 58c 56 ] [MD5:506d5b417ab655f8df65002d80195678,9bc47f4b2948bf08065760dd6d33519d,960668e42222fc385730f73fdddf53e3]
+POC   57 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )       8752 bits [Y 33.9843 dB    U 41.5904 dB    V 40.3986 dB] [ET    37 ] [L0 56 48 ] [L1 58c 56 ] [MD5:0a45db2321692f2d85b0d6aad26dc066,fafc6a2167eac3e66aeb15dffda2d3e3,2e175904e4b754370e9d0127fd5cbbf0]
+POC   57 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      23224 bits [Y 36.5552 dB    U 42.3370 dB    V 41.2626 dB] [ET    43 ] [L0 56 48 57(3, {1.00, 1.00}x) ] [L1 58 56 57(3, {1.00, 1.00}x)c ] [MD5:55503ab323fa3678cd29f25d5af9f7c5,b71221153789a128cccca35aae4dca7a,1c51bfbb3a577190c87a5d4073720d48]
+POC   59 LId: 0 TId: 4 ( B-SLICE      TSA_N, nQP 51 QP 51 )        496 bits [Y 26.5971 dB    U 38.0349 dB    V 36.0059 dB] [ET    27 ] [L0 58c 56 ] [L1 58 56 ] [MD5:264375bc93767ede67cfe6c764878305,50e94ad07636d1d24a65d57aa9722738,63710744a52c5c781ea8d4d8613b4bd9]
+POC   59 LId: 1 TId: 4 ( B-SLICE      TSA_N, nQP 50 QP 50 )       3264 bits [Y 28.5820 dB    U 39.3346 dB    V 37.8131 dB] [ET    29 ] [L0 58c 56 ] [L1 58 56 ] [MD5:9c4f9f090929cfc086ec78b3c782851c,6cad789f0b583f75336b3d73b8f6dc0d,236ee17a11d9f5e2ee22fc9449555f49]
+POC   59 LId: 2 TId: 4 ( B-SLICE      TSA_N, nQP 45 QP 45 )       8184 bits [Y 30.5789 dB    U 40.5541 dB    V 39.1127 dB] [ET    31 ] [L0 58c 56 ] [L1 58 56 ] [MD5:59ff3611d4f815b70c96cd9ddd2e5d6a,674061dbcb87028b2f73afde0762df5c,88c853928c94a1763968d087ad1e6988]
+POC   59 LId: 3 TId: 4 ( B-SLICE      TSA_N, nQP 40 QP 40 )      20872 bits [Y 32.8991 dB    U 41.3806 dB    V 40.0694 dB] [ET    34 ] [L0 58c 56 ] [L1 58 56 ] [MD5:041ec72059c4d1e8ce99f964b6b93993,9691de6bdb45173f383cde638a178236,da3cad719fa0581dd9c17fc13423bff1]
+POC   59 LId: 4 TId: 4 ( B-SLICE      TSA_N, nQP 35 QP 35 )      43576 bits [Y 35.5292 dB    U 41.9450 dB    V 40.7515 dB] [ET    41 ] [L0 58 56 59(3, {1.00, 1.00}x)c ] [L1 58 56 59(3, {1.00, 1.00}x) ] [MD5:97e487efff3c14be95a9ce04f7b85820,0b218d888a75966a36f1f8233a01c95a,a63a19fe0ce880efd63cc19bcc12a7d0]
+
+
+SUMMARY --------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+  L0 	       60    a      87.4440   27.5565   38.4487   36.7489   29.0764
+  L1 	       60    a     188.7520   29.4517   39.7422   38.3473   30.9364
+  L2 	       60    a     553.8280   31.6938   41.0152   39.6679   33.0997
+  L3 	       60    a    1281.8040   34.2171   41.7897   40.6260   35.4755
+  L4 	       60    a    1890.4120   36.9466   42.5760   41.4780   37.9793
+
+
+I Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+  L0 	        2    i    1170.1200   29.4359   38.4720   37.1785   30.8894
+  L1 	        0    i         -nan      -nan      -nan      -nan      -nan
+  L2 	        2    i    5029.5600   35.0105   41.2839   40.3168   36.2304
+  L3 	        0    i         -nan      -nan      -nan      -nan      -nan
+  L4 	        0    i         -nan      -nan      -nan      -nan      -nan
+
+
+P Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+  L0 	        0    p         -nan      -nan      -nan      -nan      -nan
+  L1 	        2    p    1808.7600   31.9409   39.9266   38.9118   33.3273
+  L2 	        0    p         -nan      -nan      -nan      -nan      -nan
+  L3 	        2    p    8826.0000   38.0378   42.3697   41.5297   38.9919
+  L4 	        2    p    7705.3200   40.8495   43.7530   42.9802   41.5342
+
+
+B Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+  L0 	       58    b      50.1103   27.4917   38.4479   36.7341   29.0256
+  L1 	       58    b     132.8897   29.3659   39.7358   38.3278   30.8734
+  L2 	       58    b     399.4924   31.5795   41.0059   39.6455   33.0234
+  L3 	       58    b    1021.6593   34.0853   41.7697   40.5949   35.3931
+  L4 	       58    b    1689.8979   36.8120   42.5355   41.4262   37.8964
+
+RVM[L0]: 0.000
+RVM[L1]: 0.000
+RVM[L2]: 0.000
+RVM[L3]: 0.000
+RVM[L4]: 0.000
+
+Bytes written to file: 1018904 (4075.616 kbps)
+
+ Total Time:    12164.830 sec.

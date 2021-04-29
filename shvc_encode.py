@@ -13,10 +13,7 @@ fps = '30'
 maxlayers = 5
 filelist = ['stefan.yuv'] #jsut a placeholder, ignore
 #qp = ['21', '24', '27', '30', '33', '36']
-qp = ['46', '41', '36', '31', '26', '21']
-
-def pause(chunk):
-    programPause = input("Chunk {} done, Press the <ENTER> key to continue...".format(chunk))
+qp = ['50', '45', '40', '35', '30', '24']
 
 def getchunk(name):
     ret = []
@@ -74,7 +71,7 @@ def runSHVC():
     for name in filelist:
         # get all chunk of a file
         #chunks = getchunk(name) YachtRide_1920x1080_chunk_9.yuv_30_hevc.txt
-        chunks = ['YachtRide_1920x1080_chunk_8.yuv']
+        chunks = ['Bosphorus_1920x1080_chunk_6.yuv', 'Bosphorus_1920x1080_chunk_7.yuv', 'Bosphorus_1920x1080_chunk_8.yuv', 'Bosphorus_1920x1080_chunk_9.yuv']
         print(chunks)
         for chunk in chunks:
             # generate a config file per sequence before running SHVC
